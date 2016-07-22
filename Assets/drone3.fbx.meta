@@ -1,0 +1,4329 @@
+fileFormatVersion: 2
+guid: f61bdcf83afa2424eb397972dca52dd2
+timeCreated: 1469193096
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: curve1
+    100002: curve5
+    100004: curve6
+    100006: directionalLight1
+    100008: directionalLight2
+    100010: drone
+    100012: //RootNode
+    100014: drone_2:_UNKNOWN_REF_NODE_fosterParent1
+    100016: drone_2:drone_good:joint37
+    100018: drone_2:drone_good:pCylinder1
+    100020: drone_2:drone_good:pCylinder10
+    100022: drone_2:drone_good:pCylinder11
+    100024: drone_2:drone_good:pCylinder3
+    100026: drone_2:drone_good:pCylinder4
+    100028: drone_2:drone_good:pCylinder5
+    100030: drone_2:drone_good:pCylinder6
+    100032: drone_2:drone_good:pCylinder7
+    100034: drone_2:drone_good:pCylinder8
+    100036: drone_2:drone_good:pCylinder9
+    100038: drone_2:drone_good:polySurface1
+    100040: drone_2:drone_good:polySurface10
+    100042: drone_2:drone_good:polySurface11
+    100044: drone_2:drone_good:polySurface12
+    100046: drone_2:drone_good:polySurface13
+    100048: drone_2:drone_good:polySurface14
+    100050: drone_2:drone_good:polySurface18
+    100052: drone_2:drone_good:polySurface19
+    100054: drone_2:drone_good:polySurface2
+    100056: drone_2:drone_good:polySurface3
+    100058: drone_2:drone_good:polySurface4
+    100060: drone_2:drone_good:polySurface5
+    100062: drone_2:drone_good:polySurface5 1
+    100064: drone_2:drone_good:polySurface6
+    100066: drone_2:drone_good:polySurface6 1
+    100068: drone_2:drone_good:polySurface7
+    100070: drone_2:drone_good:polySurface9
+    100072: drone_2:drone_good:pPipe1
+    100074: drone_2:drone_good:pPipe2
+    100076: drone_2:drone_good:pPipe3
+    100078: drone_2:drone_good:pPipe4
+    100080: drone_2:drone_good:transform1
+    100082: drone_2:drone_good:transform1 1
+    100084: drone_2:drone_good:transform10
+    100086: drone_2:drone_good:transform10 1
+    100088: drone_2:drone_good:transform11
+    100090: drone_2:drone_good:transform11 1
+    100092: drone_2:drone_good:transform12
+    100094: drone_2:drone_good:transform12 1
+    100096: drone_2:drone_good:transform13
+    100098: drone_2:drone_good:transform13 1
+    100100: drone_2:drone_good:transform14
+    100102: drone_2:drone_good:transform14 1
+    100104: drone_2:drone_good:transform2
+    100106: drone_2:drone_good:transform2 1
+    100108: drone_2:drone_good:transform3
+    100110: drone_2:drone_good:transform3 1
+    100112: drone_2:drone_good:transform4
+    100114: drone_2:drone_good:transform4 1
+    100116: drone_2:drone_good:transform5
+    100118: drone_2:drone_good:transform5 1
+    100120: drone_2:drone_good:transform6
+    100122: drone_2:drone_good:transform6 1
+    100124: drone_2:drone_good:transform7
+    100126: drone_2:drone_good:transform7 1
+    100128: drone_2:drone_good:transform8
+    100130: drone_2:drone_good:transform8 1
+    100132: drone_2:drone_good:transform9
+    100134: drone_2:drone_good:transform9 1
+    100136: drone_2:engine_1
+    100138: drone_2:fin
+    100140: drone_2:fin1
+    100142: drone_2:fins
+    100144: drone_2:group
+    100146: drone_2:group1
+    100148: drone_2:group10
+    100150: drone_2:group11
+    100152: drone_2:group12
+    100154: drone_2:group13
+    100156: drone_2:group14
+    100158: drone_2:group15
+    100160: drone_2:group16
+    100162: drone_2:group17
+    100164: drone_2:group18
+    100166: drone_2:group19
+    100168: drone_2:group2
+    100170: drone_2:group20
+    100172: drone_2:group21
+    100174: drone_2:group22
+    100176: drone_2:group23
+    100178: drone_2:group24
+    100180: drone_2:group25
+    100182: drone_2:group26
+    100184: drone_2:group27
+    100186: drone_2:group28
+    100188: drone_2:group29
+    100190: drone_2:group3
+    100192: drone_2:group30
+    100194: drone_2:group31
+    100196: drone_2:group32
+    100198: drone_2:group33
+    100200: drone_2:group34
+    100202: drone_2:group35
+    100204: drone_2:group36
+    100206: drone_2:group37
+    100208: drone_2:group38
+    100210: drone_2:group39
+    100212: drone_2:group4
+    100214: drone_2:group40
+    100216: drone_2:group41
+    100218: drone_2:group42
+    100220: drone_2:group43
+    100222: drone_2:group44
+    100224: drone_2:group45
+    100226: drone_2:group46
+    100228: drone_2:group47
+    100230: drone_2:group48
+    100232: drone_2:group49
+    100234: drone_2:group5
+    100236: drone_2:group50
+    100238: drone_2:group51
+    100240: drone_2:group52
+    100242: drone_2:group53
+    100244: drone_2:group54
+    100246: drone_2:group6
+    100248: drone_2:group7
+    100250: drone_2:group8
+    100252: drone_2:group9
+    100254: drone_2:imagePlane1
+    100256: drone_2:instancer1
+    100258: drone_2:instancer2
+    100260: drone_2:instancer3
+    100262: drone_2:mech_1:group
+    100264: drone_2:mech_1:group1
+    100266: drone_2:mech_1:motercycle_engine:nurbsToPoly1
+    100268: drone_2:mech_1:motercycle_engine:nurbsToPoly10
+    100270: drone_2:mech_1:motercycle_engine:nurbsToPoly11
+    100272: drone_2:mech_1:motercycle_engine:nurbsToPoly12
+    100274: drone_2:mech_1:motercycle_engine:nurbsToPoly13
+    100276: drone_2:mech_1:motercycle_engine:nurbsToPoly14
+    100278: drone_2:mech_1:motercycle_engine:nurbsToPoly15
+    100280: drone_2:mech_1:motercycle_engine:nurbsToPoly16
+    100282: drone_2:mech_1:motercycle_engine:nurbsToPoly17
+    100284: drone_2:mech_1:motercycle_engine:nurbsToPoly18
+    100286: drone_2:mech_1:motercycle_engine:nurbsToPoly19
+    100288: drone_2:mech_1:motercycle_engine:nurbsToPoly2
+    100290: drone_2:mech_1:motercycle_engine:nurbsToPoly20
+    100292: drone_2:mech_1:motercycle_engine:nurbsToPoly21
+    100294: drone_2:mech_1:motercycle_engine:nurbsToPoly22
+    100296: drone_2:mech_1:motercycle_engine:nurbsToPoly23
+    100298: drone_2:mech_1:motercycle_engine:nurbsToPoly24
+    100300: drone_2:mech_1:motercycle_engine:nurbsToPoly25
+    100302: drone_2:mech_1:motercycle_engine:nurbsToPoly26
+    100304: drone_2:mech_1:motercycle_engine:nurbsToPoly27
+    100306: drone_2:mech_1:motercycle_engine:nurbsToPoly3
+    100308: drone_2:mech_1:motercycle_engine:nurbsToPoly4
+    100310: drone_2:mech_1:motercycle_engine:nurbsToPoly5
+    100312: drone_2:mech_1:motercycle_engine:nurbsToPoly6
+    100314: drone_2:mech_1:motercycle_engine:nurbsToPoly7
+    100316: drone_2:mech_1:motercycle_engine:nurbsToPoly8
+    100318: drone_2:mech_1:motercycle_engine:nurbsToPoly9
+    100320: drone_2:mech_1:motercycle_engine:pCube2
+    100322: drone_2:mech_1:motercycle_engine:pCube3
+    100324: drone_2:mech_1:motercycle_engine:pCylinder1
+    100326: drone_2:mech_1:motercycle_engine:pCylinder1 1
+    100328: drone_2:mech_1:motercycle_engine:pCylinder3
+    100330: drone_2:mech_1:motercycle_engine:pCylinder4
+    100332: drone_2:mech_1:motercycle_engine:pCylinder6
+    100334: drone_2:mech_1:motercycle_engine:pCylinder6 1
+    100336: drone_2:mech_1:motercycle_engine:polySurface1
+    100338: drone_2:mech_1:motercycle_engine:pPipe1
+    100340: drone_2:mech_1:motercycle_engine:transform1
+    100342: drone_2:mech_1:motercycle_engine:transform10
+    100344: drone_2:mech_1:motercycle_engine:transform11
+    100346: drone_2:mech_1:motercycle_engine:transform12
+    100348: drone_2:mech_1:motercycle_engine:transform13
+    100350: drone_2:mech_1:motercycle_engine:transform14
+    100352: drone_2:mech_1:motercycle_engine:transform15
+    100354: drone_2:mech_1:motercycle_engine:transform16
+    100356: drone_2:mech_1:motercycle_engine:transform17
+    100358: drone_2:mech_1:motercycle_engine:transform18
+    100360: drone_2:mech_1:motercycle_engine:transform19
+    100362: drone_2:mech_1:motercycle_engine:transform2
+    100364: drone_2:mech_1:motercycle_engine:transform20
+    100366: drone_2:mech_1:motercycle_engine:transform21
+    100368: drone_2:mech_1:motercycle_engine:transform22
+    100370: drone_2:mech_1:motercycle_engine:transform23
+    100372: drone_2:mech_1:motercycle_engine:transform24
+    100374: drone_2:mech_1:motercycle_engine:transform25
+    100376: drone_2:mech_1:motercycle_engine:transform26
+    100378: drone_2:mech_1:motercycle_engine:transform27
+    100380: drone_2:mech_1:motercycle_engine:transform28
+    100382: drone_2:mech_1:motercycle_engine:transform29
+    100384: drone_2:mech_1:motercycle_engine:transform3
+    100386: drone_2:mech_1:motercycle_engine:transform30
+    100388: drone_2:mech_1:motercycle_engine:transform31
+    100390: drone_2:mech_1:motercycle_engine:transform32
+    100392: drone_2:mech_1:motercycle_engine:transform33
+    100394: drone_2:mech_1:motercycle_engine:transform34
+    100396: drone_2:mech_1:motercycle_engine:transform35
+    100398: drone_2:mech_1:motercycle_engine:transform36
+    100400: drone_2:mech_1:motercycle_engine:transform37
+    100402: drone_2:mech_1:motercycle_engine:transform4
+    100404: drone_2:mech_1:motercycle_engine:transform5
+    100406: drone_2:mech_1:motercycle_engine:transform6
+    100408: drone_2:mech_1:motercycle_engine:transform7
+    100410: drone_2:mech_1:motercycle_engine:transform8
+    100412: drone_2:mech_1:motercycle_engine:transform9
+    100414: drone_2:mech_1:pasted__pCube1
+    100416: drone_2:mech_1:pasted__pCube3
+    100418: drone_2:mech_1:pasted__pCube4
+    100420: drone_2:mech_1:pasted__pCube5
+    100422: drone_2:mech_1:pasted__pCube6
+    100424: drone_2:mech_1:pasted__pCube8
+    100426: drone_2:mech_1:pasted__pCube9
+    100428: drone_2:mech_1:pasted__pCylinder1
+    100430: drone_2:mech_1:pasted__pCylinder1 1
+    100432: drone_2:mech_1:pasted__pCylinder10
+    100434: drone_2:mech_1:pasted__pCylinder11
+    100436: drone_2:mech_1:pasted__pCylinder12
+    100438: drone_2:mech_1:pasted__pCylinder13
+    100440: drone_2:mech_1:pasted__pCylinder14
+    100442: drone_2:mech_1:pasted__pCylinder15
+    100444: drone_2:mech_1:pasted__pCylinder16
+    100446: drone_2:mech_1:pasted__pCylinder17
+    100448: drone_2:mech_1:pasted__pCylinder18
+    100450: drone_2:mech_1:pasted__pCylinder19
+    100452: drone_2:mech_1:pasted__pCylinder20
+    100454: drone_2:mech_1:pasted__pCylinder3
+    100456: drone_2:mech_1:pasted__pCylinder3 1
+    100458: drone_2:mech_1:pasted__pCylinder5
+    100460: drone_2:mech_1:pasted__pCylinder7
+    100462: drone_2:mech_1:pasted__pCylinder8
+    100464: drone_2:mech_1:pasted__pCylinder9
+    100466: drone_2:mech_1:pasted__polySurface1
+    100468: drone_2:mech_1:pasted__polySurface16
+    100470: drone_2:mech_1:pasted__polySurface17
+    100472: drone_2:mech_1:pasted__polySurface18
+    100474: drone_2:mech_1:pasted__polySurface2
+    100476: drone_2:mech_1:pasted__polySurface20
+    100478: drone_2:mech_1:pasted__polySurface21
+    100480: drone_2:mech_1:pasted__polySurface22
+    100482: drone_2:mech_1:pasted__polySurface23
+    100484: drone_2:mech_1:pasted__polySurface24
+    100486: drone_2:mech_1:pasted__polySurface25
+    100488: drone_2:mech_1:pasted__polySurface26
+    100490: drone_2:mech_1:pasted__polySurface4
+    100492: drone_2:mech_1:pasted__polySurface4 1
+    100494: drone_2:mech_1:pasted__transform1
+    100496: drone_2:mech_1:pasted__transform10
+    100498: drone_2:mech_1:pasted__transform11
+    100500: drone_2:mech_1:pasted__transform12
+    100502: drone_2:mech_1:pasted__transform13
+    100504: drone_2:mech_1:pasted__transform14
+    100506: drone_2:mech_1:pasted__transform15
+    100508: drone_2:mech_1:pasted__transform16
+    100510: drone_2:mech_1:pasted__transform17
+    100512: drone_2:mech_1:pasted__transform18
+    100514: drone_2:mech_1:pasted__transform19
+    100516: drone_2:mech_1:pasted__transform2
+    100518: drone_2:mech_1:pasted__transform2 1
+    100520: drone_2:mech_1:pasted__transform20
+    100522: drone_2:mech_1:pasted__transform21
+    100524: drone_2:mech_1:pasted__transform22
+    100526: drone_2:mech_1:pasted__transform23
+    100528: drone_2:mech_1:pasted__transform24
+    100530: drone_2:mech_1:pasted__transform25
+    100532: drone_2:mech_1:pasted__transform26
+    100534: drone_2:mech_1:pasted__transform27
+    100536: drone_2:mech_1:pasted__transform28
+    100538: drone_2:mech_1:pasted__transform29
+    100540: drone_2:mech_1:pasted__transform3
+    100542: drone_2:mech_1:pasted__transform3 1
+    100544: drone_2:mech_1:pasted__transform30
+    100546: drone_2:mech_1:pasted__transform31
+    100548: drone_2:mech_1:pasted__transform32
+    100550: drone_2:mech_1:pasted__transform33
+    100552: drone_2:mech_1:pasted__transform34
+    100554: drone_2:mech_1:pasted__transform35
+    100556: drone_2:mech_1:pasted__transform36
+    100558: drone_2:mech_1:pasted__transform37
+    100560: drone_2:mech_1:pasted__transform38
+    100562: drone_2:mech_1:pasted__transform39
+    100564: drone_2:mech_1:pasted__transform4
+    100566: drone_2:mech_1:pasted__transform4 1
+    100568: drone_2:mech_1:pasted__transform5
+    100570: drone_2:mech_1:pasted__transform6
+    100572: drone_2:mech_1:pasted__transform9
+    100574: drone_2:mech_1:pCube1
+    100576: drone_2:mech_1:pCube11
+    100578: drone_2:mech_1:pCube3
+    100580: drone_2:mech_1:pCube4
+    100582: drone_2:mech_1:pCube5
+    100584: drone_2:mech_1:pCube6
+    100586: drone_2:mech_1:pCube8
+    100588: drone_2:mech_1:pCube9
+    100590: drone_2:mech_1:pCylinder1
+    100592: drone_2:mech_1:pCylinder10
+    100594: drone_2:mech_1:pCylinder11
+    100596: drone_2:mech_1:pCylinder12
+    100598: drone_2:mech_1:pCylinder13
+    100600: drone_2:mech_1:pCylinder14
+    100602: drone_2:mech_1:pCylinder15
+    100604: drone_2:mech_1:pCylinder16
+    100606: drone_2:mech_1:pCylinder17
+    100608: drone_2:mech_1:pCylinder18
+    100610: drone_2:mech_1:pCylinder19
+    100612: drone_2:mech_1:pCylinder20
+    100614: drone_2:mech_1:pCylinder3
+    100616: drone_2:mech_1:pCylinder31
+    100618: drone_2:mech_1:pCylinder32
+    100620: drone_2:mech_1:pCylinder33
+    100622: drone_2:mech_1:pCylinder34
+    100624: drone_2:mech_1:pCylinder35
+    100626: drone_2:mech_1:pCylinder36
+    100628: drone_2:mech_1:pCylinder37
+    100630: drone_2:mech_1:pCylinder38
+    100632: drone_2:mech_1:pCylinder41
+    100634: drone_2:mech_1:pCylinder42
+    100636: drone_2:mech_1:pCylinder43
+    100638: drone_2:mech_1:pCylinder44
+    100640: drone_2:mech_1:pCylinder45
+    100642: drone_2:mech_1:pCylinder46
+    100644: drone_2:mech_1:pCylinder47
+    100646: drone_2:mech_1:pCylinder48
+    100648: drone_2:mech_1:pCylinder49
+    100650: drone_2:mech_1:pCylinder5
+    100652: drone_2:mech_1:pCylinder50
+    100654: drone_2:mech_1:pCylinder7
+    100656: drone_2:mech_1:pCylinder8
+    100658: drone_2:mech_1:pCylinder9
+    100660: drone_2:mech_1:polySurface1
+    100662: drone_2:mech_1:polySurface16
+    100664: drone_2:mech_1:polySurface17
+    100666: drone_2:mech_1:polySurface18
+    100668: drone_2:mech_1:polySurface2
+    100670: drone_2:mech_1:polySurface20
+    100672: drone_2:mech_1:polySurface21
+    100674: drone_2:mech_1:polySurface22
+    100676: drone_2:mech_1:polySurface23
+    100678: drone_2:mech_1:polySurface24
+    100680: drone_2:mech_1:polySurface25
+    100682: drone_2:mech_1:polySurface26
+    100684: drone_2:mech_1:polySurface29
+    100686: drone_2:mech_1:polySurface32
+    100688: drone_2:mech_1:polySurface33
+    100690: drone_2:mech_1:polySurface34
+    100692: drone_2:mech_1:polySurface35
+    100694: drone_2:mech_1:polySurface4
+    100696: drone_2:mech_1:pPipe1
+    100698: drone_2:mech_1:pPipe2
+    100700: drone_2:mech_1:pPipe3
+    100702: drone_2:mech_1:transform1
+    100704: drone_2:mech_1:transform10
+    100706: drone_2:mech_1:transform11
+    100708: drone_2:mech_1:transform12
+    100710: drone_2:mech_1:transform13
+    100712: drone_2:mech_1:transform14
+    100714: drone_2:mech_1:transform15
+    100716: drone_2:mech_1:transform16
+    100718: drone_2:mech_1:transform17
+    100720: drone_2:mech_1:transform18
+    100722: drone_2:mech_1:transform19
+    100724: drone_2:mech_1:transform2
+    100726: drone_2:mech_1:transform20
+    100728: drone_2:mech_1:transform21
+    100730: drone_2:mech_1:transform22
+    100732: drone_2:mech_1:transform23
+    100734: drone_2:mech_1:transform24
+    100736: drone_2:mech_1:transform25
+    100738: drone_2:mech_1:transform26
+    100740: drone_2:mech_1:transform27
+    100742: drone_2:mech_1:transform28
+    100744: drone_2:mech_1:transform29
+    100746: drone_2:mech_1:transform3
+    100748: drone_2:mech_1:transform30
+    100750: drone_2:mech_1:transform31
+    100752: drone_2:mech_1:transform32
+    100754: drone_2:mech_1:transform33
+    100756: drone_2:mech_1:transform34
+    100758: drone_2:mech_1:transform35
+    100760: drone_2:mech_1:transform36
+    100762: drone_2:mech_1:transform37
+    100764: drone_2:mech_1:transform38
+    100766: drone_2:mech_1:transform39
+    100768: drone_2:mech_1:transform4
+    100770: drone_2:mech_1:transform40
+    100772: drone_2:mech_1:transform41
+    100774: drone_2:mech_1:transform42
+    100776: drone_2:mech_1:transform43
+    100778: drone_2:mech_1:transform44
+    100780: drone_2:mech_1:transform45
+    100782: drone_2:mech_1:transform46
+    100784: drone_2:mech_1:transform47
+    100786: drone_2:mech_1:transform48
+    100788: drone_2:mech_1:transform5
+    100790: drone_2:mech_1:transform50
+    100792: drone_2:mech_1:transform51
+    100794: drone_2:mech_1:transform52
+    100796: drone_2:mech_1:transform53
+    100798: drone_2:mech_1:transform54
+    100800: drone_2:mech_1:transform55
+    100802: drone_2:mech_1:transform56
+    100804: drone_2:mech_1:transform57
+    100806: drone_2:mech_1:transform58
+    100808: drone_2:mech_1:transform59
+    100810: drone_2:mech_1:transform6
+    100812: drone_2:mech_1:transform60
+    100814: drone_2:mech_1:transform61
+    100816: drone_2:mech_1:transform62
+    100818: drone_2:mech_1:transform63
+    100820: drone_2:mech_1:transform64
+    100822: drone_2:mech_1:transform65
+    100824: drone_2:mech_1:transform66
+    100826: drone_2:mech_1:transform9
+    100828: drone_2:nurbsToPoly1
+    100830: drone_2:nurbsToSubd1
+    100832: drone_2:nurbsToSubd2
+    100834: drone_2:nurbsToSubd3
+    100836: drone_2:nurbsToSubd4
+    100838: drone_2:nurbsToSubd5
+    100840: drone_2:nurbsToSubd6
+    100842: drone_2:particle1
+    100844: drone_2:pasted__drone
+    100846: drone_2:pasted__drone 1
+    100848: drone_2:pasted__engine_1
+    100850: drone_2:pasted__fin
+    100852: drone_2:pasted__fin1
+    100854: drone_2:pasted__fins
+    100856: drone_2:pasted__group10
+    100858: drone_2:pasted__group10 1
+    100860: drone_2:pasted__group11
+    100862: drone_2:pasted__group11 1
+    100864: drone_2:pasted__group12
+    100866: drone_2:pasted__group12 1
+    100868: drone_2:pasted__group13
+    100870: drone_2:pasted__group13 1
+    100872: drone_2:pasted__group14
+    100874: drone_2:pasted__group14 1
+    100876: drone_2:pasted__group15
+    100878: drone_2:pasted__group15 1
+    100880: drone_2:pasted__group2
+    100882: drone_2:pasted__group2 1
+    100884: drone_2:pasted__group3
+    100886: drone_2:pasted__group3 1
+    100888: drone_2:pasted__group4
+    100890: drone_2:pasted__group4 1
+    100892: drone_2:pasted__group5
+    100894: drone_2:pasted__group5 1
+    100896: drone_2:pasted__group53
+    100898: drone_2:pasted__group6
+    100900: drone_2:pasted__group6 1
+    100902: drone_2:pasted__group7
+    100904: drone_2:pasted__group7 1
+    100906: drone_2:pasted__group8
+    100908: drone_2:pasted__group8 1
+    100910: drone_2:pasted__group9
+    100912: drone_2:pasted__group9 1
+    100914: drone_2:pasted__nurbsToPoly1
+    100916: drone_2:pasted__nurbsToSubd1
+    100918: drone_2:pasted__nurbsToSubd1 1
+    100920: drone_2:pasted__nurbsToSubd2
+    100922: drone_2:pasted__nurbsToSubd2 1
+    100924: drone_2:pasted__nurbsToSubd3
+    100926: drone_2:pasted__nurbsToSubd3 1
+    100928: drone_2:pasted__nurbsToSubd4
+    100930: drone_2:pasted__nurbsToSubd4 1
+    100932: drone_2:pasted__nurbsToSubd5
+    100934: drone_2:pasted__nurbsToSubd6
+    100936: drone_2:pasted__particle1
+    100938: drone_2:pasted__particle1 1
+    100940: drone_2:pasted__pasted__particle1
+    100942: drone_2:pasted__pCylinder1
+    100944: drone_2:pasted__pCylinder1 1
+    100946: drone_2:pasted__pCylinder10
+    100948: drone_2:pasted__pCylinder11
+    100950: drone_2:pasted__pCylinder12
+    100952: drone_2:pasted__pCylinder13
+    100954: drone_2:pasted__pCylinder14
+    100956: drone_2:pasted__pCylinder15
+    100958: drone_2:pasted__pCylinder16
+    100960: drone_2:pasted__pCylinder17
+    100962: drone_2:pasted__pCylinder18
+    100964: drone_2:pasted__pCylinder19
+    100966: drone_2:pasted__pCylinder2
+    100968: drone_2:pasted__pCylinder2 1
+    100970: drone_2:pasted__pCylinder2 10
+    100972: drone_2:pasted__pCylinder2 11
+    100974: drone_2:pasted__pCylinder2 12
+    100976: drone_2:pasted__pCylinder2 13
+    100978: drone_2:pasted__pCylinder2 14
+    100980: drone_2:pasted__pCylinder2 15
+    100982: drone_2:pasted__pCylinder2 16
+    100984: drone_2:pasted__pCylinder2 17
+    100986: drone_2:pasted__pCylinder2 18
+    100988: drone_2:pasted__pCylinder2 19
+    100990: drone_2:pasted__pCylinder2 2
+    100992: drone_2:pasted__pCylinder2 20
+    100994: drone_2:pasted__pCylinder2 21
+    100996: drone_2:pasted__pCylinder2 22
+    100998: drone_2:pasted__pCylinder2 23
+    101000: drone_2:pasted__pCylinder2 24
+    101002: drone_2:pasted__pCylinder2 25
+    101004: drone_2:pasted__pCylinder2 26
+    101006: drone_2:pasted__pCylinder2 27
+    101008: drone_2:pasted__pCylinder2 3
+    101010: drone_2:pasted__pCylinder2 4
+    101012: drone_2:pasted__pCylinder2 5
+    101014: drone_2:pasted__pCylinder2 6
+    101016: drone_2:pasted__pCylinder2 7
+    101018: drone_2:pasted__pCylinder2 8
+    101020: drone_2:pasted__pCylinder2 9
+    101022: drone_2:pasted__pCylinder20
+    101024: drone_2:pasted__pCylinder3
+    101026: drone_2:pasted__pCylinder4
+    101028: drone_2:pasted__pCylinder4 1
+    101030: drone_2:pasted__pCylinder5
+    101032: drone_2:pasted__pCylinder5 1
+    101034: drone_2:pasted__pCylinder58
+    101036: drone_2:pasted__pCylinder6
+    101038: drone_2:pasted__pCylinder6 1
+    101040: drone_2:pasted__pCylinder60
+    101042: drone_2:pasted__pCylinder62
+    101044: drone_2:pasted__pCylinder64
+    101046: drone_2:pasted__pCylinder66
+    101048: drone_2:pasted__pCylinder68
+    101050: drone_2:pasted__pCylinder7
+    101052: drone_2:pasted__pCylinder7 1
+    101054: drone_2:pasted__pCylinder70
+    101056: drone_2:pasted__pCylinder72
+    101058: drone_2:pasted__pCylinder76
+    101060: drone_2:pasted__pCylinder77
+    101062: drone_2:pasted__pCylinder78
+    101064: drone_2:pasted__pCylinder79
+    101066: drone_2:pasted__pCylinder8
+    101068: drone_2:pasted__pCylinder8 1
+    101070: drone_2:pasted__pCylinder80
+    101072: drone_2:pasted__pCylinder81
+    101074: drone_2:pasted__pCylinder82
+    101076: drone_2:pasted__pCylinder9
+    101078: drone_2:pasted__pCylinder9 1
+    101080: drone_2:pasted__polySurface1
+    101082: drone_2:pasted__polySurface10
+    101084: drone_2:pasted__polySurface11
+    101086: drone_2:pasted__polySurface12
+    101088: drone_2:pasted__polySurface13
+    101090: drone_2:pasted__polySurface14
+    101092: drone_2:pasted__polySurface15
+    101094: drone_2:pasted__polySurface16
+    101096: drone_2:pasted__polySurface17
+    101098: drone_2:pasted__polySurface18
+    101100: drone_2:pasted__polySurface19
+    101102: drone_2:pasted__polySurface2
+    101104: drone_2:pasted__polySurface20
+    101106: drone_2:pasted__polySurface21
+    101108: drone_2:pasted__polySurface22
+    101110: drone_2:pasted__polySurface23
+    101112: drone_2:pasted__polySurface24
+    101114: drone_2:pasted__polySurface25
+    101116: drone_2:pasted__polySurface26
+    101118: drone_2:pasted__polySurface27
+    101120: drone_2:pasted__polySurface28
+    101122: drone_2:pasted__polySurface29
+    101124: drone_2:pasted__polySurface3
+    101126: drone_2:pasted__polySurface30
+    101128: drone_2:pasted__polySurface32
+    101130: drone_2:pasted__polySurface34
+    101132: drone_2:pasted__polySurface36
+    101134: drone_2:pasted__polySurface4
+    101136: drone_2:pasted__polySurface5
+    101138: drone_2:pasted__polySurface6
+    101140: drone_2:pasted__polySurface7
+    101142: drone_2:pasted__polySurface72
+    101144: drone_2:pasted__polySurface8
+    101146: drone_2:pasted__polySurface9
+    101148: drone_2:pasted__pPipe1
+    101150: drone_2:pasted__pPipe1 1
+    101152: drone_2:pasted__pPipe2
+    101154: drone_2:pasted__pPipe2 1
+    101156: drone_2:pasted__pPipe3
+    101158: drone_2:pasted__pPipe3 1
+    101160: drone_2:pasted__pPipe4
+    101162: drone_2:pasted__pPipe4 1
+    101164: drone_2:pasted__RIGHT_JOINT
+    101166: drone_2:pasted__transform1
+    101168: drone_2:pasted__transform1 1
+    101170: drone_2:pasted__transform10
+    101172: drone_2:pasted__transform10 1
+    101174: drone_2:pasted__transform100
+    101176: drone_2:pasted__transform101
+    101178: drone_2:pasted__transform102
+    101180: drone_2:pasted__transform103
+    101182: drone_2:pasted__transform104
+    101184: drone_2:pasted__transform105
+    101186: drone_2:pasted__transform106
+    101188: drone_2:pasted__transform107
+    101190: drone_2:pasted__transform108
+    101192: drone_2:pasted__transform109
+    101194: drone_2:pasted__transform11
+    101196: drone_2:pasted__transform11 1
+    101198: drone_2:pasted__transform110
+    101200: drone_2:pasted__transform111
+    101202: drone_2:pasted__transform112
+    101204: drone_2:pasted__transform12
+    101206: drone_2:pasted__transform12 1
+    101208: drone_2:pasted__transform13
+    101210: drone_2:pasted__transform13 1
+    101212: drone_2:pasted__transform14
+    101214: drone_2:pasted__transform14 1
+    101216: drone_2:pasted__transform15
+    101218: drone_2:pasted__transform15 1
+    101220: drone_2:pasted__transform16
+    101222: drone_2:pasted__transform16 1
+    101224: drone_2:pasted__transform17
+    101226: drone_2:pasted__transform17 1
+    101228: drone_2:pasted__transform18
+    101230: drone_2:pasted__transform18 1
+    101232: drone_2:pasted__transform19
+    101234: drone_2:pasted__transform19 1
+    101236: drone_2:pasted__transform2
+    101238: drone_2:pasted__transform2 1
+    101240: drone_2:pasted__transform20
+    101242: drone_2:pasted__transform20 1
+    101244: drone_2:pasted__transform21
+    101246: drone_2:pasted__transform21 1
+    101248: drone_2:pasted__transform22
+    101250: drone_2:pasted__transform22 1
+    101252: drone_2:pasted__transform23
+    101254: drone_2:pasted__transform23 1
+    101256: drone_2:pasted__transform24
+    101258: drone_2:pasted__transform24 1
+    101260: drone_2:pasted__transform25
+    101262: drone_2:pasted__transform25 1
+    101264: drone_2:pasted__transform26
+    101266: drone_2:pasted__transform26 1
+    101268: drone_2:pasted__transform27
+    101270: drone_2:pasted__transform27 1
+    101272: drone_2:pasted__transform28
+    101274: drone_2:pasted__transform28 1
+    101276: drone_2:pasted__transform29
+    101278: drone_2:pasted__transform29 1
+    101280: drone_2:pasted__transform3
+    101282: drone_2:pasted__transform3 1
+    101284: drone_2:pasted__transform30
+    101286: drone_2:pasted__transform31
+    101288: drone_2:pasted__transform32
+    101290: drone_2:pasted__transform33
+    101292: drone_2:pasted__transform34
+    101294: drone_2:pasted__transform35
+    101296: drone_2:pasted__transform36
+    101298: drone_2:pasted__transform37
+    101300: drone_2:pasted__transform38
+    101302: drone_2:pasted__transform39
+    101304: drone_2:pasted__transform4
+    101306: drone_2:pasted__transform4 1
+    101308: drone_2:pasted__transform40
+    101310: drone_2:pasted__transform41
+    101312: drone_2:pasted__transform42
+    101314: drone_2:pasted__transform43
+    101316: drone_2:pasted__transform44
+    101318: drone_2:pasted__transform45
+    101320: drone_2:pasted__transform46
+    101322: drone_2:pasted__transform47
+    101324: drone_2:pasted__transform48
+    101326: drone_2:pasted__transform49
+    101328: drone_2:pasted__transform5
+    101330: drone_2:pasted__transform5 1
+    101332: drone_2:pasted__transform50
+    101334: drone_2:pasted__transform51
+    101336: drone_2:pasted__transform52
+    101338: drone_2:pasted__transform53
+    101340: drone_2:pasted__transform54
+    101342: drone_2:pasted__transform55
+    101344: drone_2:pasted__transform56
+    101346: drone_2:pasted__transform57
+    101348: drone_2:pasted__transform58
+    101350: drone_2:pasted__transform59
+    101352: drone_2:pasted__transform6
+    101354: drone_2:pasted__transform6 1
+    101356: drone_2:pasted__transform60
+    101358: drone_2:pasted__transform61
+    101360: drone_2:pasted__transform62
+    101362: drone_2:pasted__transform63
+    101364: drone_2:pasted__transform64
+    101366: drone_2:pasted__transform65
+    101368: drone_2:pasted__transform66
+    101370: drone_2:pasted__transform67
+    101372: drone_2:pasted__transform68
+    101374: drone_2:pasted__transform69
+    101376: drone_2:pasted__transform7
+    101378: drone_2:pasted__transform7 1
+    101380: drone_2:pasted__transform70
+    101382: drone_2:pasted__transform71
+    101384: drone_2:pasted__transform72
+    101386: drone_2:pasted__transform73
+    101388: drone_2:pasted__transform74
+    101390: drone_2:pasted__transform75
+    101392: drone_2:pasted__transform76
+    101394: drone_2:pasted__transform77
+    101396: drone_2:pasted__transform78
+    101398: drone_2:pasted__transform79
+    101400: drone_2:pasted__transform8
+    101402: drone_2:pasted__transform8 1
+    101404: drone_2:pasted__transform80
+    101406: drone_2:pasted__transform81
+    101408: drone_2:pasted__transform82
+    101410: drone_2:pasted__transform9
+    101412: drone_2:pasted__transform9 1
+    101414: drone_2:pasted__transform97
+    101416: drone_2:pasted__transform98
+    101418: drone_2:pasted__transform99
+    101420: drone_2:pCylinder1
+    101422: drone_2:pCylinder10
+    101424: drone_2:pCylinder11
+    101426: drone_2:pCylinder12
+    101428: drone_2:pCylinder13
+    101430: drone_2:pCylinder14
+    101432: drone_2:pCylinder15
+    101434: drone_2:pCylinder16
+    101436: drone_2:pCylinder17
+    101438: drone_2:pCylinder18
+    101440: drone_2:pCylinder19
+    101442: drone_2:pCylinder2
+    101444: drone_2:pCylinder2 1
+    101446: drone_2:pCylinder2 10
+    101448: drone_2:pCylinder2 11
+    101450: drone_2:pCylinder2 12
+    101452: drone_2:pCylinder2 13
+    101454: drone_2:pCylinder2 2
+    101456: drone_2:pCylinder2 3
+    101458: drone_2:pCylinder2 4
+    101460: drone_2:pCylinder2 5
+    101462: drone_2:pCylinder2 6
+    101464: drone_2:pCylinder2 7
+    101466: drone_2:pCylinder2 8
+    101468: drone_2:pCylinder2 9
+    101470: drone_2:pCylinder20
+    101472: drone_2:pCylinder3
+    101474: drone_2:pCylinder4
+    101476: drone_2:pCylinder5
+    101478: drone_2:pCylinder6
+    101480: drone_2:pCylinder7
+    101482: drone_2:pCylinder76
+    101484: drone_2:pCylinder77
+    101486: drone_2:pCylinder78
+    101488: drone_2:pCylinder79
+    101490: drone_2:pCylinder8
+    101492: drone_2:pCylinder80
+    101494: drone_2:pCylinder81
+    101496: drone_2:pCylinder82
+    101498: drone_2:pCylinder9
+    101500: drone_2:polySurface1
+    101502: drone_2:polySurface10
+    101504: drone_2:polySurface11
+    101506: drone_2:polySurface12
+    101508: drone_2:polySurface13
+    101510: drone_2:polySurface14
+    101512: drone_2:polySurface15
+    101514: drone_2:polySurface16
+    101516: drone_2:polySurface17
+    101518: drone_2:polySurface18
+    101520: drone_2:polySurface19
+    101522: drone_2:polySurface2
+    101524: drone_2:polySurface20
+    101526: drone_2:polySurface21
+    101528: drone_2:polySurface22
+    101530: drone_2:polySurface23
+    101532: drone_2:polySurface24
+    101534: drone_2:polySurface25
+    101536: drone_2:polySurface26
+    101538: drone_2:polySurface27
+    101540: drone_2:polySurface28
+    101542: drone_2:polySurface29
+    101544: drone_2:polySurface3
+    101546: drone_2:polySurface30
+    101548: drone_2:polySurface32
+    101550: drone_2:polySurface34
+    101552: drone_2:polySurface36
+    101554: drone_2:polySurface4
+    101556: drone_2:polySurface5
+    101558: drone_2:polySurface6
+    101560: drone_2:polySurface7
+    101562: drone_2:polySurface72
+    101564: drone_2:polySurface8
+    101566: drone_2:polySurface9
+    101568: drone_2:pPipe1
+    101570: drone_2:pPipe2
+    101572: drone_2:pPipe3
+    101574: drone_2:pPipe4
+    101576: drone_2:RIGHT_JOINT
+    101578: drone_2:transform1
+    101580: drone_2:transform10
+    101582: drone_2:transform105
+    101584: drone_2:transform106
+    101586: drone_2:transform107
+    101588: drone_2:transform108
+    101590: drone_2:transform109
+    101592: drone_2:transform11
+    101594: drone_2:transform110
+    101596: drone_2:transform111
+    101598: drone_2:transform112
+    101600: drone_2:transform12
+    101602: drone_2:transform13
+    101604: drone_2:transform14
+    101606: drone_2:transform15
+    101608: drone_2:transform16
+    101610: drone_2:transform17
+    101612: drone_2:transform18
+    101614: drone_2:transform19
+    101616: drone_2:transform2
+    101618: drone_2:transform20
+    101620: drone_2:transform21
+    101622: drone_2:transform22
+    101624: drone_2:transform23
+    101626: drone_2:transform24
+    101628: drone_2:transform25
+    101630: drone_2:transform26
+    101632: drone_2:transform27
+    101634: drone_2:transform28
+    101636: drone_2:transform29
+    101638: drone_2:transform3
+    101640: drone_2:transform30
+    101642: drone_2:transform31
+    101644: drone_2:transform32
+    101646: drone_2:transform33
+    101648: drone_2:transform34
+    101650: drone_2:transform35
+    101652: drone_2:transform36
+    101654: drone_2:transform37
+    101656: drone_2:transform38
+    101658: drone_2:transform39
+    101660: drone_2:transform4
+    101662: drone_2:transform40
+    101664: drone_2:transform41
+    101666: drone_2:transform42
+    101668: drone_2:transform43
+    101670: drone_2:transform44
+    101672: drone_2:transform45
+    101674: drone_2:transform46
+    101676: drone_2:transform47
+    101678: drone_2:transform48
+    101680: drone_2:transform49
+    101682: drone_2:transform5
+    101684: drone_2:transform50
+    101686: drone_2:transform51
+    101688: drone_2:transform52
+    101690: drone_2:transform53
+    101692: drone_2:transform54
+    101694: drone_2:transform55
+    101696: drone_2:transform56
+    101698: drone_2:transform57
+    101700: drone_2:transform58
+    101702: drone_2:transform59
+    101704: drone_2:transform6
+    101706: drone_2:transform60
+    101708: drone_2:transform61
+    101710: drone_2:transform62
+    101712: drone_2:transform63
+    101714: drone_2:transform64
+    101716: drone_2:transform65
+    101718: drone_2:transform66
+    101720: drone_2:transform67
+    101722: drone_2:transform68
+    101724: drone_2:transform69
+    101726: drone_2:transform7
+    101728: drone_2:transform70
+    101730: drone_2:transform71
+    101732: drone_2:transform72
+    101734: drone_2:transform73
+    101736: drone_2:transform74
+    101738: drone_2:transform75
+    101740: drone_2:transform76
+    101742: drone_2:transform77
+    101744: drone_2:transform78
+    101746: drone_2:transform79
+    101748: drone_2:transform8
+    101750: drone_2:transform80
+    101752: drone_2:transform81
+    101754: drone_2:transform82
+    101756: drone_2:transform9
+    101758: group53
+    101760: group54
+    101762: group55
+    101764: group56
+    101766: group57
+    101768: gun_4:group
+    101770: gun_4:pasted__pPlane1
+    101772: gun_4:pasted__pPlane2
+    101774: gun_4:pasted__pSphere1
+    101776: gun_4:plasma_rifle
+    101778: gun_4:polySurface1
+    101780: gun_4:polySurface2
+    101782: gun_4:polySurface3
+    101784: gun_4:polySurface4
+    101786: gun_4:polySurface6
+    101788: gun_4:transform1
+    101790: gun_4:transform2
+    101792: gun_4:transform3
+    101794: gun_4:transform4
+    101796: gun_4:transform5
+    101798: gun_4:transform6
+    101800: gun_4:transform7
+    101802: gun_4:transform8
+    101804: gun_4:transform9
+    101806: left_back_prop
+    101808: left_prop
+    101810: mirroredCutMesh1
+    101812: nurbsCircle2
+    101814: nurbsCircle3
+    101816: nurbsCircle4
+    101818: nurbsToSubd1
+    101820: nurbsToSubd2
+    101822: nurbsToSubd3
+    101824: nurbsToSubd4
+    101826: pCylinder100
+    101828: pCylinder101
+    101830: pCylinder102
+    101832: pCylinder103
+    101834: pCylinder52
+    101836: pCylinder53
+    101838: pCylinder54
+    101840: pCylinder55
+    101842: pCylinder56
+    101844: pCylinder57
+    101846: pCylinder58
+    101848: pCylinder60
+    101850: pCylinder62
+    101852: pCylinder64
+    101854: pCylinder66
+    101856: pCylinder68
+    101858: pCylinder70
+    101860: pCylinder72
+    101862: pCylinder76
+    101864: pCylinder77
+    101866: pCylinder78
+    101868: pCylinder79
+    101870: pCylinder80
+    101872: pCylinder81
+    101874: pCylinder82
+    101876: pCylinder83
+    101878: pCylinder84
+    101880: pCylinder85
+    101882: pCylinder86
+    101884: pCylinder87
+    101886: pCylinder88
+    101888: pCylinder89
+    101890: pCylinder91
+    101892: pCylinder92
+    101894: pCylinder93
+    101896: pCylinder94
+    101898: pCylinder95
+    101900: pCylinder96
+    101902: pCylinder97
+    101904: pCylinder98
+    101906: pCylinder99
+    101908: polySurface31
+    101910: polySurface31 1
+    101912: polySurface31 2
+    101914: polySurface31 3
+    101916: polySurface35
+    101918: polySurface37
+    101920: polySurface38
+    101922: polySurface39
+    101924: polySurface40
+    101926: polySurface72
+    101928: polySurface73
+    101930: polySurface74
+    101932: polySurface75
+    101934: polySurface76
+    101936: polySurface77
+    101938: polySurface78
+    101940: polySurface79
+    101942: polySurface80
+    101944: polySurface81
+    101946: pSphere1
+    101948: right_back_prop
+    101950: right_prop
+    101952: transform100
+    101954: transform101
+    101956: transform102
+    101958: transform103
+    101960: transform104
+    101962: transform105
+    101964: transform106
+    101966: transform107
+    101968: transform108
+    101970: transform109
+    101972: transform110
+    101974: transform111
+    101976: transform112
+    101978: transform113
+    101980: transform114
+    101982: transform116
+    101984: transform117
+    101986: transform118
+    101988: transform119
+    101990: transform120
+    101992: transform121
+    101994: transform122
+    101996: transform123
+    101998: transform124
+    102000: transform125
+    102002: transform126
+    102004: transform127
+    102006: transform128
+    102008: transform129
+    102010: transform130
+    102012: transform131
+    102014: transform132
+    102016: transform133
+    102018: transform134
+    102020: transform135
+    102022: transform136
+    102024: transform137
+    102026: transform138
+    102028: transform139
+    102030: transform140
+    102032: transform141
+    102034: transform142
+    102036: transform97
+    102038: transform98
+    102040: transform99
+    400000: curve1
+    400002: curve5
+    400004: curve6
+    400006: directionalLight1
+    400008: directionalLight2
+    400010: drone
+    400012: //RootNode
+    400014: drone_2:_UNKNOWN_REF_NODE_fosterParent1
+    400016: drone_2:drone_good:joint37
+    400018: drone_2:drone_good:pCylinder1
+    400020: drone_2:drone_good:pCylinder10
+    400022: drone_2:drone_good:pCylinder11
+    400024: drone_2:drone_good:pCylinder3
+    400026: drone_2:drone_good:pCylinder4
+    400028: drone_2:drone_good:pCylinder5
+    400030: drone_2:drone_good:pCylinder6
+    400032: drone_2:drone_good:pCylinder7
+    400034: drone_2:drone_good:pCylinder8
+    400036: drone_2:drone_good:pCylinder9
+    400038: drone_2:drone_good:polySurface1
+    400040: drone_2:drone_good:polySurface10
+    400042: drone_2:drone_good:polySurface11
+    400044: drone_2:drone_good:polySurface12
+    400046: drone_2:drone_good:polySurface13
+    400048: drone_2:drone_good:polySurface14
+    400050: drone_2:drone_good:polySurface18
+    400052: drone_2:drone_good:polySurface19
+    400054: drone_2:drone_good:polySurface2
+    400056: drone_2:drone_good:polySurface3
+    400058: drone_2:drone_good:polySurface4
+    400060: drone_2:drone_good:polySurface5
+    400062: drone_2:drone_good:polySurface5 1
+    400064: drone_2:drone_good:polySurface6
+    400066: drone_2:drone_good:polySurface6 1
+    400068: drone_2:drone_good:polySurface7
+    400070: drone_2:drone_good:polySurface9
+    400072: drone_2:drone_good:pPipe1
+    400074: drone_2:drone_good:pPipe2
+    400076: drone_2:drone_good:pPipe3
+    400078: drone_2:drone_good:pPipe4
+    400080: drone_2:drone_good:transform1
+    400082: drone_2:drone_good:transform1 1
+    400084: drone_2:drone_good:transform10
+    400086: drone_2:drone_good:transform10 1
+    400088: drone_2:drone_good:transform11
+    400090: drone_2:drone_good:transform11 1
+    400092: drone_2:drone_good:transform12
+    400094: drone_2:drone_good:transform12 1
+    400096: drone_2:drone_good:transform13
+    400098: drone_2:drone_good:transform13 1
+    400100: drone_2:drone_good:transform14
+    400102: drone_2:drone_good:transform14 1
+    400104: drone_2:drone_good:transform2
+    400106: drone_2:drone_good:transform2 1
+    400108: drone_2:drone_good:transform3
+    400110: drone_2:drone_good:transform3 1
+    400112: drone_2:drone_good:transform4
+    400114: drone_2:drone_good:transform4 1
+    400116: drone_2:drone_good:transform5
+    400118: drone_2:drone_good:transform5 1
+    400120: drone_2:drone_good:transform6
+    400122: drone_2:drone_good:transform6 1
+    400124: drone_2:drone_good:transform7
+    400126: drone_2:drone_good:transform7 1
+    400128: drone_2:drone_good:transform8
+    400130: drone_2:drone_good:transform8 1
+    400132: drone_2:drone_good:transform9
+    400134: drone_2:drone_good:transform9 1
+    400136: drone_2:engine_1
+    400138: drone_2:fin
+    400140: drone_2:fin1
+    400142: drone_2:fins
+    400144: drone_2:group
+    400146: drone_2:group1
+    400148: drone_2:group10
+    400150: drone_2:group11
+    400152: drone_2:group12
+    400154: drone_2:group13
+    400156: drone_2:group14
+    400158: drone_2:group15
+    400160: drone_2:group16
+    400162: drone_2:group17
+    400164: drone_2:group18
+    400166: drone_2:group19
+    400168: drone_2:group2
+    400170: drone_2:group20
+    400172: drone_2:group21
+    400174: drone_2:group22
+    400176: drone_2:group23
+    400178: drone_2:group24
+    400180: drone_2:group25
+    400182: drone_2:group26
+    400184: drone_2:group27
+    400186: drone_2:group28
+    400188: drone_2:group29
+    400190: drone_2:group3
+    400192: drone_2:group30
+    400194: drone_2:group31
+    400196: drone_2:group32
+    400198: drone_2:group33
+    400200: drone_2:group34
+    400202: drone_2:group35
+    400204: drone_2:group36
+    400206: drone_2:group37
+    400208: drone_2:group38
+    400210: drone_2:group39
+    400212: drone_2:group4
+    400214: drone_2:group40
+    400216: drone_2:group41
+    400218: drone_2:group42
+    400220: drone_2:group43
+    400222: drone_2:group44
+    400224: drone_2:group45
+    400226: drone_2:group46
+    400228: drone_2:group47
+    400230: drone_2:group48
+    400232: drone_2:group49
+    400234: drone_2:group5
+    400236: drone_2:group50
+    400238: drone_2:group51
+    400240: drone_2:group52
+    400242: drone_2:group53
+    400244: drone_2:group54
+    400246: drone_2:group6
+    400248: drone_2:group7
+    400250: drone_2:group8
+    400252: drone_2:group9
+    400254: drone_2:imagePlane1
+    400256: drone_2:instancer1
+    400258: drone_2:instancer2
+    400260: drone_2:instancer3
+    400262: drone_2:mech_1:group
+    400264: drone_2:mech_1:group1
+    400266: drone_2:mech_1:motercycle_engine:nurbsToPoly1
+    400268: drone_2:mech_1:motercycle_engine:nurbsToPoly10
+    400270: drone_2:mech_1:motercycle_engine:nurbsToPoly11
+    400272: drone_2:mech_1:motercycle_engine:nurbsToPoly12
+    400274: drone_2:mech_1:motercycle_engine:nurbsToPoly13
+    400276: drone_2:mech_1:motercycle_engine:nurbsToPoly14
+    400278: drone_2:mech_1:motercycle_engine:nurbsToPoly15
+    400280: drone_2:mech_1:motercycle_engine:nurbsToPoly16
+    400282: drone_2:mech_1:motercycle_engine:nurbsToPoly17
+    400284: drone_2:mech_1:motercycle_engine:nurbsToPoly18
+    400286: drone_2:mech_1:motercycle_engine:nurbsToPoly19
+    400288: drone_2:mech_1:motercycle_engine:nurbsToPoly2
+    400290: drone_2:mech_1:motercycle_engine:nurbsToPoly20
+    400292: drone_2:mech_1:motercycle_engine:nurbsToPoly21
+    400294: drone_2:mech_1:motercycle_engine:nurbsToPoly22
+    400296: drone_2:mech_1:motercycle_engine:nurbsToPoly23
+    400298: drone_2:mech_1:motercycle_engine:nurbsToPoly24
+    400300: drone_2:mech_1:motercycle_engine:nurbsToPoly25
+    400302: drone_2:mech_1:motercycle_engine:nurbsToPoly26
+    400304: drone_2:mech_1:motercycle_engine:nurbsToPoly27
+    400306: drone_2:mech_1:motercycle_engine:nurbsToPoly3
+    400308: drone_2:mech_1:motercycle_engine:nurbsToPoly4
+    400310: drone_2:mech_1:motercycle_engine:nurbsToPoly5
+    400312: drone_2:mech_1:motercycle_engine:nurbsToPoly6
+    400314: drone_2:mech_1:motercycle_engine:nurbsToPoly7
+    400316: drone_2:mech_1:motercycle_engine:nurbsToPoly8
+    400318: drone_2:mech_1:motercycle_engine:nurbsToPoly9
+    400320: drone_2:mech_1:motercycle_engine:pCube2
+    400322: drone_2:mech_1:motercycle_engine:pCube3
+    400324: drone_2:mech_1:motercycle_engine:pCylinder1
+    400326: drone_2:mech_1:motercycle_engine:pCylinder1 1
+    400328: drone_2:mech_1:motercycle_engine:pCylinder3
+    400330: drone_2:mech_1:motercycle_engine:pCylinder4
+    400332: drone_2:mech_1:motercycle_engine:pCylinder6
+    400334: drone_2:mech_1:motercycle_engine:pCylinder6 1
+    400336: drone_2:mech_1:motercycle_engine:polySurface1
+    400338: drone_2:mech_1:motercycle_engine:pPipe1
+    400340: drone_2:mech_1:motercycle_engine:transform1
+    400342: drone_2:mech_1:motercycle_engine:transform10
+    400344: drone_2:mech_1:motercycle_engine:transform11
+    400346: drone_2:mech_1:motercycle_engine:transform12
+    400348: drone_2:mech_1:motercycle_engine:transform13
+    400350: drone_2:mech_1:motercycle_engine:transform14
+    400352: drone_2:mech_1:motercycle_engine:transform15
+    400354: drone_2:mech_1:motercycle_engine:transform16
+    400356: drone_2:mech_1:motercycle_engine:transform17
+    400358: drone_2:mech_1:motercycle_engine:transform18
+    400360: drone_2:mech_1:motercycle_engine:transform19
+    400362: drone_2:mech_1:motercycle_engine:transform2
+    400364: drone_2:mech_1:motercycle_engine:transform20
+    400366: drone_2:mech_1:motercycle_engine:transform21
+    400368: drone_2:mech_1:motercycle_engine:transform22
+    400370: drone_2:mech_1:motercycle_engine:transform23
+    400372: drone_2:mech_1:motercycle_engine:transform24
+    400374: drone_2:mech_1:motercycle_engine:transform25
+    400376: drone_2:mech_1:motercycle_engine:transform26
+    400378: drone_2:mech_1:motercycle_engine:transform27
+    400380: drone_2:mech_1:motercycle_engine:transform28
+    400382: drone_2:mech_1:motercycle_engine:transform29
+    400384: drone_2:mech_1:motercycle_engine:transform3
+    400386: drone_2:mech_1:motercycle_engine:transform30
+    400388: drone_2:mech_1:motercycle_engine:transform31
+    400390: drone_2:mech_1:motercycle_engine:transform32
+    400392: drone_2:mech_1:motercycle_engine:transform33
+    400394: drone_2:mech_1:motercycle_engine:transform34
+    400396: drone_2:mech_1:motercycle_engine:transform35
+    400398: drone_2:mech_1:motercycle_engine:transform36
+    400400: drone_2:mech_1:motercycle_engine:transform37
+    400402: drone_2:mech_1:motercycle_engine:transform4
+    400404: drone_2:mech_1:motercycle_engine:transform5
+    400406: drone_2:mech_1:motercycle_engine:transform6
+    400408: drone_2:mech_1:motercycle_engine:transform7
+    400410: drone_2:mech_1:motercycle_engine:transform8
+    400412: drone_2:mech_1:motercycle_engine:transform9
+    400414: drone_2:mech_1:pasted__pCube1
+    400416: drone_2:mech_1:pasted__pCube3
+    400418: drone_2:mech_1:pasted__pCube4
+    400420: drone_2:mech_1:pasted__pCube5
+    400422: drone_2:mech_1:pasted__pCube6
+    400424: drone_2:mech_1:pasted__pCube8
+    400426: drone_2:mech_1:pasted__pCube9
+    400428: drone_2:mech_1:pasted__pCylinder1
+    400430: drone_2:mech_1:pasted__pCylinder1 1
+    400432: drone_2:mech_1:pasted__pCylinder10
+    400434: drone_2:mech_1:pasted__pCylinder11
+    400436: drone_2:mech_1:pasted__pCylinder12
+    400438: drone_2:mech_1:pasted__pCylinder13
+    400440: drone_2:mech_1:pasted__pCylinder14
+    400442: drone_2:mech_1:pasted__pCylinder15
+    400444: drone_2:mech_1:pasted__pCylinder16
+    400446: drone_2:mech_1:pasted__pCylinder17
+    400448: drone_2:mech_1:pasted__pCylinder18
+    400450: drone_2:mech_1:pasted__pCylinder19
+    400452: drone_2:mech_1:pasted__pCylinder20
+    400454: drone_2:mech_1:pasted__pCylinder3
+    400456: drone_2:mech_1:pasted__pCylinder3 1
+    400458: drone_2:mech_1:pasted__pCylinder5
+    400460: drone_2:mech_1:pasted__pCylinder7
+    400462: drone_2:mech_1:pasted__pCylinder8
+    400464: drone_2:mech_1:pasted__pCylinder9
+    400466: drone_2:mech_1:pasted__polySurface1
+    400468: drone_2:mech_1:pasted__polySurface16
+    400470: drone_2:mech_1:pasted__polySurface17
+    400472: drone_2:mech_1:pasted__polySurface18
+    400474: drone_2:mech_1:pasted__polySurface2
+    400476: drone_2:mech_1:pasted__polySurface20
+    400478: drone_2:mech_1:pasted__polySurface21
+    400480: drone_2:mech_1:pasted__polySurface22
+    400482: drone_2:mech_1:pasted__polySurface23
+    400484: drone_2:mech_1:pasted__polySurface24
+    400486: drone_2:mech_1:pasted__polySurface25
+    400488: drone_2:mech_1:pasted__polySurface26
+    400490: drone_2:mech_1:pasted__polySurface4
+    400492: drone_2:mech_1:pasted__polySurface4 1
+    400494: drone_2:mech_1:pasted__transform1
+    400496: drone_2:mech_1:pasted__transform10
+    400498: drone_2:mech_1:pasted__transform11
+    400500: drone_2:mech_1:pasted__transform12
+    400502: drone_2:mech_1:pasted__transform13
+    400504: drone_2:mech_1:pasted__transform14
+    400506: drone_2:mech_1:pasted__transform15
+    400508: drone_2:mech_1:pasted__transform16
+    400510: drone_2:mech_1:pasted__transform17
+    400512: drone_2:mech_1:pasted__transform18
+    400514: drone_2:mech_1:pasted__transform19
+    400516: drone_2:mech_1:pasted__transform2
+    400518: drone_2:mech_1:pasted__transform2 1
+    400520: drone_2:mech_1:pasted__transform20
+    400522: drone_2:mech_1:pasted__transform21
+    400524: drone_2:mech_1:pasted__transform22
+    400526: drone_2:mech_1:pasted__transform23
+    400528: drone_2:mech_1:pasted__transform24
+    400530: drone_2:mech_1:pasted__transform25
+    400532: drone_2:mech_1:pasted__transform26
+    400534: drone_2:mech_1:pasted__transform27
+    400536: drone_2:mech_1:pasted__transform28
+    400538: drone_2:mech_1:pasted__transform29
+    400540: drone_2:mech_1:pasted__transform3
+    400542: drone_2:mech_1:pasted__transform3 1
+    400544: drone_2:mech_1:pasted__transform30
+    400546: drone_2:mech_1:pasted__transform31
+    400548: drone_2:mech_1:pasted__transform32
+    400550: drone_2:mech_1:pasted__transform33
+    400552: drone_2:mech_1:pasted__transform34
+    400554: drone_2:mech_1:pasted__transform35
+    400556: drone_2:mech_1:pasted__transform36
+    400558: drone_2:mech_1:pasted__transform37
+    400560: drone_2:mech_1:pasted__transform38
+    400562: drone_2:mech_1:pasted__transform39
+    400564: drone_2:mech_1:pasted__transform4
+    400566: drone_2:mech_1:pasted__transform4 1
+    400568: drone_2:mech_1:pasted__transform5
+    400570: drone_2:mech_1:pasted__transform6
+    400572: drone_2:mech_1:pasted__transform9
+    400574: drone_2:mech_1:pCube1
+    400576: drone_2:mech_1:pCube11
+    400578: drone_2:mech_1:pCube3
+    400580: drone_2:mech_1:pCube4
+    400582: drone_2:mech_1:pCube5
+    400584: drone_2:mech_1:pCube6
+    400586: drone_2:mech_1:pCube8
+    400588: drone_2:mech_1:pCube9
+    400590: drone_2:mech_1:pCylinder1
+    400592: drone_2:mech_1:pCylinder10
+    400594: drone_2:mech_1:pCylinder11
+    400596: drone_2:mech_1:pCylinder12
+    400598: drone_2:mech_1:pCylinder13
+    400600: drone_2:mech_1:pCylinder14
+    400602: drone_2:mech_1:pCylinder15
+    400604: drone_2:mech_1:pCylinder16
+    400606: drone_2:mech_1:pCylinder17
+    400608: drone_2:mech_1:pCylinder18
+    400610: drone_2:mech_1:pCylinder19
+    400612: drone_2:mech_1:pCylinder20
+    400614: drone_2:mech_1:pCylinder3
+    400616: drone_2:mech_1:pCylinder31
+    400618: drone_2:mech_1:pCylinder32
+    400620: drone_2:mech_1:pCylinder33
+    400622: drone_2:mech_1:pCylinder34
+    400624: drone_2:mech_1:pCylinder35
+    400626: drone_2:mech_1:pCylinder36
+    400628: drone_2:mech_1:pCylinder37
+    400630: drone_2:mech_1:pCylinder38
+    400632: drone_2:mech_1:pCylinder41
+    400634: drone_2:mech_1:pCylinder42
+    400636: drone_2:mech_1:pCylinder43
+    400638: drone_2:mech_1:pCylinder44
+    400640: drone_2:mech_1:pCylinder45
+    400642: drone_2:mech_1:pCylinder46
+    400644: drone_2:mech_1:pCylinder47
+    400646: drone_2:mech_1:pCylinder48
+    400648: drone_2:mech_1:pCylinder49
+    400650: drone_2:mech_1:pCylinder5
+    400652: drone_2:mech_1:pCylinder50
+    400654: drone_2:mech_1:pCylinder7
+    400656: drone_2:mech_1:pCylinder8
+    400658: drone_2:mech_1:pCylinder9
+    400660: drone_2:mech_1:polySurface1
+    400662: drone_2:mech_1:polySurface16
+    400664: drone_2:mech_1:polySurface17
+    400666: drone_2:mech_1:polySurface18
+    400668: drone_2:mech_1:polySurface2
+    400670: drone_2:mech_1:polySurface20
+    400672: drone_2:mech_1:polySurface21
+    400674: drone_2:mech_1:polySurface22
+    400676: drone_2:mech_1:polySurface23
+    400678: drone_2:mech_1:polySurface24
+    400680: drone_2:mech_1:polySurface25
+    400682: drone_2:mech_1:polySurface26
+    400684: drone_2:mech_1:polySurface29
+    400686: drone_2:mech_1:polySurface32
+    400688: drone_2:mech_1:polySurface33
+    400690: drone_2:mech_1:polySurface34
+    400692: drone_2:mech_1:polySurface35
+    400694: drone_2:mech_1:polySurface4
+    400696: drone_2:mech_1:pPipe1
+    400698: drone_2:mech_1:pPipe2
+    400700: drone_2:mech_1:pPipe3
+    400702: drone_2:mech_1:transform1
+    400704: drone_2:mech_1:transform10
+    400706: drone_2:mech_1:transform11
+    400708: drone_2:mech_1:transform12
+    400710: drone_2:mech_1:transform13
+    400712: drone_2:mech_1:transform14
+    400714: drone_2:mech_1:transform15
+    400716: drone_2:mech_1:transform16
+    400718: drone_2:mech_1:transform17
+    400720: drone_2:mech_1:transform18
+    400722: drone_2:mech_1:transform19
+    400724: drone_2:mech_1:transform2
+    400726: drone_2:mech_1:transform20
+    400728: drone_2:mech_1:transform21
+    400730: drone_2:mech_1:transform22
+    400732: drone_2:mech_1:transform23
+    400734: drone_2:mech_1:transform24
+    400736: drone_2:mech_1:transform25
+    400738: drone_2:mech_1:transform26
+    400740: drone_2:mech_1:transform27
+    400742: drone_2:mech_1:transform28
+    400744: drone_2:mech_1:transform29
+    400746: drone_2:mech_1:transform3
+    400748: drone_2:mech_1:transform30
+    400750: drone_2:mech_1:transform31
+    400752: drone_2:mech_1:transform32
+    400754: drone_2:mech_1:transform33
+    400756: drone_2:mech_1:transform34
+    400758: drone_2:mech_1:transform35
+    400760: drone_2:mech_1:transform36
+    400762: drone_2:mech_1:transform37
+    400764: drone_2:mech_1:transform38
+    400766: drone_2:mech_1:transform39
+    400768: drone_2:mech_1:transform4
+    400770: drone_2:mech_1:transform40
+    400772: drone_2:mech_1:transform41
+    400774: drone_2:mech_1:transform42
+    400776: drone_2:mech_1:transform43
+    400778: drone_2:mech_1:transform44
+    400780: drone_2:mech_1:transform45
+    400782: drone_2:mech_1:transform46
+    400784: drone_2:mech_1:transform47
+    400786: drone_2:mech_1:transform48
+    400788: drone_2:mech_1:transform5
+    400790: drone_2:mech_1:transform50
+    400792: drone_2:mech_1:transform51
+    400794: drone_2:mech_1:transform52
+    400796: drone_2:mech_1:transform53
+    400798: drone_2:mech_1:transform54
+    400800: drone_2:mech_1:transform55
+    400802: drone_2:mech_1:transform56
+    400804: drone_2:mech_1:transform57
+    400806: drone_2:mech_1:transform58
+    400808: drone_2:mech_1:transform59
+    400810: drone_2:mech_1:transform6
+    400812: drone_2:mech_1:transform60
+    400814: drone_2:mech_1:transform61
+    400816: drone_2:mech_1:transform62
+    400818: drone_2:mech_1:transform63
+    400820: drone_2:mech_1:transform64
+    400822: drone_2:mech_1:transform65
+    400824: drone_2:mech_1:transform66
+    400826: drone_2:mech_1:transform9
+    400828: drone_2:nurbsToPoly1
+    400830: drone_2:nurbsToSubd1
+    400832: drone_2:nurbsToSubd2
+    400834: drone_2:nurbsToSubd3
+    400836: drone_2:nurbsToSubd4
+    400838: drone_2:nurbsToSubd5
+    400840: drone_2:nurbsToSubd6
+    400842: drone_2:particle1
+    400844: drone_2:pasted__drone
+    400846: drone_2:pasted__drone 1
+    400848: drone_2:pasted__engine_1
+    400850: drone_2:pasted__fin
+    400852: drone_2:pasted__fin1
+    400854: drone_2:pasted__fins
+    400856: drone_2:pasted__group10
+    400858: drone_2:pasted__group10 1
+    400860: drone_2:pasted__group11
+    400862: drone_2:pasted__group11 1
+    400864: drone_2:pasted__group12
+    400866: drone_2:pasted__group12 1
+    400868: drone_2:pasted__group13
+    400870: drone_2:pasted__group13 1
+    400872: drone_2:pasted__group14
+    400874: drone_2:pasted__group14 1
+    400876: drone_2:pasted__group15
+    400878: drone_2:pasted__group15 1
+    400880: drone_2:pasted__group2
+    400882: drone_2:pasted__group2 1
+    400884: drone_2:pasted__group3
+    400886: drone_2:pasted__group3 1
+    400888: drone_2:pasted__group4
+    400890: drone_2:pasted__group4 1
+    400892: drone_2:pasted__group5
+    400894: drone_2:pasted__group5 1
+    400896: drone_2:pasted__group53
+    400898: drone_2:pasted__group6
+    400900: drone_2:pasted__group6 1
+    400902: drone_2:pasted__group7
+    400904: drone_2:pasted__group7 1
+    400906: drone_2:pasted__group8
+    400908: drone_2:pasted__group8 1
+    400910: drone_2:pasted__group9
+    400912: drone_2:pasted__group9 1
+    400914: drone_2:pasted__nurbsToPoly1
+    400916: drone_2:pasted__nurbsToSubd1
+    400918: drone_2:pasted__nurbsToSubd1 1
+    400920: drone_2:pasted__nurbsToSubd2
+    400922: drone_2:pasted__nurbsToSubd2 1
+    400924: drone_2:pasted__nurbsToSubd3
+    400926: drone_2:pasted__nurbsToSubd3 1
+    400928: drone_2:pasted__nurbsToSubd4
+    400930: drone_2:pasted__nurbsToSubd4 1
+    400932: drone_2:pasted__nurbsToSubd5
+    400934: drone_2:pasted__nurbsToSubd6
+    400936: drone_2:pasted__particle1
+    400938: drone_2:pasted__particle1 1
+    400940: drone_2:pasted__pasted__particle1
+    400942: drone_2:pasted__pCylinder1
+    400944: drone_2:pasted__pCylinder1 1
+    400946: drone_2:pasted__pCylinder10
+    400948: drone_2:pasted__pCylinder11
+    400950: drone_2:pasted__pCylinder12
+    400952: drone_2:pasted__pCylinder13
+    400954: drone_2:pasted__pCylinder14
+    400956: drone_2:pasted__pCylinder15
+    400958: drone_2:pasted__pCylinder16
+    400960: drone_2:pasted__pCylinder17
+    400962: drone_2:pasted__pCylinder18
+    400964: drone_2:pasted__pCylinder19
+    400966: drone_2:pasted__pCylinder2
+    400968: drone_2:pasted__pCylinder2 1
+    400970: drone_2:pasted__pCylinder2 10
+    400972: drone_2:pasted__pCylinder2 11
+    400974: drone_2:pasted__pCylinder2 12
+    400976: drone_2:pasted__pCylinder2 13
+    400978: drone_2:pasted__pCylinder2 14
+    400980: drone_2:pasted__pCylinder2 15
+    400982: drone_2:pasted__pCylinder2 16
+    400984: drone_2:pasted__pCylinder2 17
+    400986: drone_2:pasted__pCylinder2 18
+    400988: drone_2:pasted__pCylinder2 19
+    400990: drone_2:pasted__pCylinder2 2
+    400992: drone_2:pasted__pCylinder2 20
+    400994: drone_2:pasted__pCylinder2 21
+    400996: drone_2:pasted__pCylinder2 22
+    400998: drone_2:pasted__pCylinder2 23
+    401000: drone_2:pasted__pCylinder2 24
+    401002: drone_2:pasted__pCylinder2 25
+    401004: drone_2:pasted__pCylinder2 26
+    401006: drone_2:pasted__pCylinder2 27
+    401008: drone_2:pasted__pCylinder2 3
+    401010: drone_2:pasted__pCylinder2 4
+    401012: drone_2:pasted__pCylinder2 5
+    401014: drone_2:pasted__pCylinder2 6
+    401016: drone_2:pasted__pCylinder2 7
+    401018: drone_2:pasted__pCylinder2 8
+    401020: drone_2:pasted__pCylinder2 9
+    401022: drone_2:pasted__pCylinder20
+    401024: drone_2:pasted__pCylinder3
+    401026: drone_2:pasted__pCylinder4
+    401028: drone_2:pasted__pCylinder4 1
+    401030: drone_2:pasted__pCylinder5
+    401032: drone_2:pasted__pCylinder5 1
+    401034: drone_2:pasted__pCylinder58
+    401036: drone_2:pasted__pCylinder6
+    401038: drone_2:pasted__pCylinder6 1
+    401040: drone_2:pasted__pCylinder60
+    401042: drone_2:pasted__pCylinder62
+    401044: drone_2:pasted__pCylinder64
+    401046: drone_2:pasted__pCylinder66
+    401048: drone_2:pasted__pCylinder68
+    401050: drone_2:pasted__pCylinder7
+    401052: drone_2:pasted__pCylinder7 1
+    401054: drone_2:pasted__pCylinder70
+    401056: drone_2:pasted__pCylinder72
+    401058: drone_2:pasted__pCylinder76
+    401060: drone_2:pasted__pCylinder77
+    401062: drone_2:pasted__pCylinder78
+    401064: drone_2:pasted__pCylinder79
+    401066: drone_2:pasted__pCylinder8
+    401068: drone_2:pasted__pCylinder8 1
+    401070: drone_2:pasted__pCylinder80
+    401072: drone_2:pasted__pCylinder81
+    401074: drone_2:pasted__pCylinder82
+    401076: drone_2:pasted__pCylinder9
+    401078: drone_2:pasted__pCylinder9 1
+    401080: drone_2:pasted__polySurface1
+    401082: drone_2:pasted__polySurface10
+    401084: drone_2:pasted__polySurface11
+    401086: drone_2:pasted__polySurface12
+    401088: drone_2:pasted__polySurface13
+    401090: drone_2:pasted__polySurface14
+    401092: drone_2:pasted__polySurface15
+    401094: drone_2:pasted__polySurface16
+    401096: drone_2:pasted__polySurface17
+    401098: drone_2:pasted__polySurface18
+    401100: drone_2:pasted__polySurface19
+    401102: drone_2:pasted__polySurface2
+    401104: drone_2:pasted__polySurface20
+    401106: drone_2:pasted__polySurface21
+    401108: drone_2:pasted__polySurface22
+    401110: drone_2:pasted__polySurface23
+    401112: drone_2:pasted__polySurface24
+    401114: drone_2:pasted__polySurface25
+    401116: drone_2:pasted__polySurface26
+    401118: drone_2:pasted__polySurface27
+    401120: drone_2:pasted__polySurface28
+    401122: drone_2:pasted__polySurface29
+    401124: drone_2:pasted__polySurface3
+    401126: drone_2:pasted__polySurface30
+    401128: drone_2:pasted__polySurface32
+    401130: drone_2:pasted__polySurface34
+    401132: drone_2:pasted__polySurface36
+    401134: drone_2:pasted__polySurface4
+    401136: drone_2:pasted__polySurface5
+    401138: drone_2:pasted__polySurface6
+    401140: drone_2:pasted__polySurface7
+    401142: drone_2:pasted__polySurface72
+    401144: drone_2:pasted__polySurface8
+    401146: drone_2:pasted__polySurface9
+    401148: drone_2:pasted__pPipe1
+    401150: drone_2:pasted__pPipe1 1
+    401152: drone_2:pasted__pPipe2
+    401154: drone_2:pasted__pPipe2 1
+    401156: drone_2:pasted__pPipe3
+    401158: drone_2:pasted__pPipe3 1
+    401160: drone_2:pasted__pPipe4
+    401162: drone_2:pasted__pPipe4 1
+    401164: drone_2:pasted__RIGHT_JOINT
+    401166: drone_2:pasted__transform1
+    401168: drone_2:pasted__transform1 1
+    401170: drone_2:pasted__transform10
+    401172: drone_2:pasted__transform10 1
+    401174: drone_2:pasted__transform100
+    401176: drone_2:pasted__transform101
+    401178: drone_2:pasted__transform102
+    401180: drone_2:pasted__transform103
+    401182: drone_2:pasted__transform104
+    401184: drone_2:pasted__transform105
+    401186: drone_2:pasted__transform106
+    401188: drone_2:pasted__transform107
+    401190: drone_2:pasted__transform108
+    401192: drone_2:pasted__transform109
+    401194: drone_2:pasted__transform11
+    401196: drone_2:pasted__transform11 1
+    401198: drone_2:pasted__transform110
+    401200: drone_2:pasted__transform111
+    401202: drone_2:pasted__transform112
+    401204: drone_2:pasted__transform12
+    401206: drone_2:pasted__transform12 1
+    401208: drone_2:pasted__transform13
+    401210: drone_2:pasted__transform13 1
+    401212: drone_2:pasted__transform14
+    401214: drone_2:pasted__transform14 1
+    401216: drone_2:pasted__transform15
+    401218: drone_2:pasted__transform15 1
+    401220: drone_2:pasted__transform16
+    401222: drone_2:pasted__transform16 1
+    401224: drone_2:pasted__transform17
+    401226: drone_2:pasted__transform17 1
+    401228: drone_2:pasted__transform18
+    401230: drone_2:pasted__transform18 1
+    401232: drone_2:pasted__transform19
+    401234: drone_2:pasted__transform19 1
+    401236: drone_2:pasted__transform2
+    401238: drone_2:pasted__transform2 1
+    401240: drone_2:pasted__transform20
+    401242: drone_2:pasted__transform20 1
+    401244: drone_2:pasted__transform21
+    401246: drone_2:pasted__transform21 1
+    401248: drone_2:pasted__transform22
+    401250: drone_2:pasted__transform22 1
+    401252: drone_2:pasted__transform23
+    401254: drone_2:pasted__transform23 1
+    401256: drone_2:pasted__transform24
+    401258: drone_2:pasted__transform24 1
+    401260: drone_2:pasted__transform25
+    401262: drone_2:pasted__transform25 1
+    401264: drone_2:pasted__transform26
+    401266: drone_2:pasted__transform26 1
+    401268: drone_2:pasted__transform27
+    401270: drone_2:pasted__transform27 1
+    401272: drone_2:pasted__transform28
+    401274: drone_2:pasted__transform28 1
+    401276: drone_2:pasted__transform29
+    401278: drone_2:pasted__transform29 1
+    401280: drone_2:pasted__transform3
+    401282: drone_2:pasted__transform3 1
+    401284: drone_2:pasted__transform30
+    401286: drone_2:pasted__transform31
+    401288: drone_2:pasted__transform32
+    401290: drone_2:pasted__transform33
+    401292: drone_2:pasted__transform34
+    401294: drone_2:pasted__transform35
+    401296: drone_2:pasted__transform36
+    401298: drone_2:pasted__transform37
+    401300: drone_2:pasted__transform38
+    401302: drone_2:pasted__transform39
+    401304: drone_2:pasted__transform4
+    401306: drone_2:pasted__transform4 1
+    401308: drone_2:pasted__transform40
+    401310: drone_2:pasted__transform41
+    401312: drone_2:pasted__transform42
+    401314: drone_2:pasted__transform43
+    401316: drone_2:pasted__transform44
+    401318: drone_2:pasted__transform45
+    401320: drone_2:pasted__transform46
+    401322: drone_2:pasted__transform47
+    401324: drone_2:pasted__transform48
+    401326: drone_2:pasted__transform49
+    401328: drone_2:pasted__transform5
+    401330: drone_2:pasted__transform5 1
+    401332: drone_2:pasted__transform50
+    401334: drone_2:pasted__transform51
+    401336: drone_2:pasted__transform52
+    401338: drone_2:pasted__transform53
+    401340: drone_2:pasted__transform54
+    401342: drone_2:pasted__transform55
+    401344: drone_2:pasted__transform56
+    401346: drone_2:pasted__transform57
+    401348: drone_2:pasted__transform58
+    401350: drone_2:pasted__transform59
+    401352: drone_2:pasted__transform6
+    401354: drone_2:pasted__transform6 1
+    401356: drone_2:pasted__transform60
+    401358: drone_2:pasted__transform61
+    401360: drone_2:pasted__transform62
+    401362: drone_2:pasted__transform63
+    401364: drone_2:pasted__transform64
+    401366: drone_2:pasted__transform65
+    401368: drone_2:pasted__transform66
+    401370: drone_2:pasted__transform67
+    401372: drone_2:pasted__transform68
+    401374: drone_2:pasted__transform69
+    401376: drone_2:pasted__transform7
+    401378: drone_2:pasted__transform7 1
+    401380: drone_2:pasted__transform70
+    401382: drone_2:pasted__transform71
+    401384: drone_2:pasted__transform72
+    401386: drone_2:pasted__transform73
+    401388: drone_2:pasted__transform74
+    401390: drone_2:pasted__transform75
+    401392: drone_2:pasted__transform76
+    401394: drone_2:pasted__transform77
+    401396: drone_2:pasted__transform78
+    401398: drone_2:pasted__transform79
+    401400: drone_2:pasted__transform8
+    401402: drone_2:pasted__transform8 1
+    401404: drone_2:pasted__transform80
+    401406: drone_2:pasted__transform81
+    401408: drone_2:pasted__transform82
+    401410: drone_2:pasted__transform9
+    401412: drone_2:pasted__transform9 1
+    401414: drone_2:pasted__transform97
+    401416: drone_2:pasted__transform98
+    401418: drone_2:pasted__transform99
+    401420: drone_2:pCylinder1
+    401422: drone_2:pCylinder10
+    401424: drone_2:pCylinder11
+    401426: drone_2:pCylinder12
+    401428: drone_2:pCylinder13
+    401430: drone_2:pCylinder14
+    401432: drone_2:pCylinder15
+    401434: drone_2:pCylinder16
+    401436: drone_2:pCylinder17
+    401438: drone_2:pCylinder18
+    401440: drone_2:pCylinder19
+    401442: drone_2:pCylinder2
+    401444: drone_2:pCylinder2 1
+    401446: drone_2:pCylinder2 10
+    401448: drone_2:pCylinder2 11
+    401450: drone_2:pCylinder2 12
+    401452: drone_2:pCylinder2 13
+    401454: drone_2:pCylinder2 2
+    401456: drone_2:pCylinder2 3
+    401458: drone_2:pCylinder2 4
+    401460: drone_2:pCylinder2 5
+    401462: drone_2:pCylinder2 6
+    401464: drone_2:pCylinder2 7
+    401466: drone_2:pCylinder2 8
+    401468: drone_2:pCylinder2 9
+    401470: drone_2:pCylinder20
+    401472: drone_2:pCylinder3
+    401474: drone_2:pCylinder4
+    401476: drone_2:pCylinder5
+    401478: drone_2:pCylinder6
+    401480: drone_2:pCylinder7
+    401482: drone_2:pCylinder76
+    401484: drone_2:pCylinder77
+    401486: drone_2:pCylinder78
+    401488: drone_2:pCylinder79
+    401490: drone_2:pCylinder8
+    401492: drone_2:pCylinder80
+    401494: drone_2:pCylinder81
+    401496: drone_2:pCylinder82
+    401498: drone_2:pCylinder9
+    401500: drone_2:polySurface1
+    401502: drone_2:polySurface10
+    401504: drone_2:polySurface11
+    401506: drone_2:polySurface12
+    401508: drone_2:polySurface13
+    401510: drone_2:polySurface14
+    401512: drone_2:polySurface15
+    401514: drone_2:polySurface16
+    401516: drone_2:polySurface17
+    401518: drone_2:polySurface18
+    401520: drone_2:polySurface19
+    401522: drone_2:polySurface2
+    401524: drone_2:polySurface20
+    401526: drone_2:polySurface21
+    401528: drone_2:polySurface22
+    401530: drone_2:polySurface23
+    401532: drone_2:polySurface24
+    401534: drone_2:polySurface25
+    401536: drone_2:polySurface26
+    401538: drone_2:polySurface27
+    401540: drone_2:polySurface28
+    401542: drone_2:polySurface29
+    401544: drone_2:polySurface3
+    401546: drone_2:polySurface30
+    401548: drone_2:polySurface32
+    401550: drone_2:polySurface34
+    401552: drone_2:polySurface36
+    401554: drone_2:polySurface4
+    401556: drone_2:polySurface5
+    401558: drone_2:polySurface6
+    401560: drone_2:polySurface7
+    401562: drone_2:polySurface72
+    401564: drone_2:polySurface8
+    401566: drone_2:polySurface9
+    401568: drone_2:pPipe1
+    401570: drone_2:pPipe2
+    401572: drone_2:pPipe3
+    401574: drone_2:pPipe4
+    401576: drone_2:RIGHT_JOINT
+    401578: drone_2:transform1
+    401580: drone_2:transform10
+    401582: drone_2:transform105
+    401584: drone_2:transform106
+    401586: drone_2:transform107
+    401588: drone_2:transform108
+    401590: drone_2:transform109
+    401592: drone_2:transform11
+    401594: drone_2:transform110
+    401596: drone_2:transform111
+    401598: drone_2:transform112
+    401600: drone_2:transform12
+    401602: drone_2:transform13
+    401604: drone_2:transform14
+    401606: drone_2:transform15
+    401608: drone_2:transform16
+    401610: drone_2:transform17
+    401612: drone_2:transform18
+    401614: drone_2:transform19
+    401616: drone_2:transform2
+    401618: drone_2:transform20
+    401620: drone_2:transform21
+    401622: drone_2:transform22
+    401624: drone_2:transform23
+    401626: drone_2:transform24
+    401628: drone_2:transform25
+    401630: drone_2:transform26
+    401632: drone_2:transform27
+    401634: drone_2:transform28
+    401636: drone_2:transform29
+    401638: drone_2:transform3
+    401640: drone_2:transform30
+    401642: drone_2:transform31
+    401644: drone_2:transform32
+    401646: drone_2:transform33
+    401648: drone_2:transform34
+    401650: drone_2:transform35
+    401652: drone_2:transform36
+    401654: drone_2:transform37
+    401656: drone_2:transform38
+    401658: drone_2:transform39
+    401660: drone_2:transform4
+    401662: drone_2:transform40
+    401664: drone_2:transform41
+    401666: drone_2:transform42
+    401668: drone_2:transform43
+    401670: drone_2:transform44
+    401672: drone_2:transform45
+    401674: drone_2:transform46
+    401676: drone_2:transform47
+    401678: drone_2:transform48
+    401680: drone_2:transform49
+    401682: drone_2:transform5
+    401684: drone_2:transform50
+    401686: drone_2:transform51
+    401688: drone_2:transform52
+    401690: drone_2:transform53
+    401692: drone_2:transform54
+    401694: drone_2:transform55
+    401696: drone_2:transform56
+    401698: drone_2:transform57
+    401700: drone_2:transform58
+    401702: drone_2:transform59
+    401704: drone_2:transform6
+    401706: drone_2:transform60
+    401708: drone_2:transform61
+    401710: drone_2:transform62
+    401712: drone_2:transform63
+    401714: drone_2:transform64
+    401716: drone_2:transform65
+    401718: drone_2:transform66
+    401720: drone_2:transform67
+    401722: drone_2:transform68
+    401724: drone_2:transform69
+    401726: drone_2:transform7
+    401728: drone_2:transform70
+    401730: drone_2:transform71
+    401732: drone_2:transform72
+    401734: drone_2:transform73
+    401736: drone_2:transform74
+    401738: drone_2:transform75
+    401740: drone_2:transform76
+    401742: drone_2:transform77
+    401744: drone_2:transform78
+    401746: drone_2:transform79
+    401748: drone_2:transform8
+    401750: drone_2:transform80
+    401752: drone_2:transform81
+    401754: drone_2:transform82
+    401756: drone_2:transform9
+    401758: group53
+    401760: group54
+    401762: group55
+    401764: group56
+    401766: group57
+    401768: gun_4:group
+    401770: gun_4:pasted__pPlane1
+    401772: gun_4:pasted__pPlane2
+    401774: gun_4:pasted__pSphere1
+    401776: gun_4:plasma_rifle
+    401778: gun_4:polySurface1
+    401780: gun_4:polySurface2
+    401782: gun_4:polySurface3
+    401784: gun_4:polySurface4
+    401786: gun_4:polySurface6
+    401788: gun_4:transform1
+    401790: gun_4:transform2
+    401792: gun_4:transform3
+    401794: gun_4:transform4
+    401796: gun_4:transform5
+    401798: gun_4:transform6
+    401800: gun_4:transform7
+    401802: gun_4:transform8
+    401804: gun_4:transform9
+    401806: left_back_prop
+    401808: left_prop
+    401810: mirroredCutMesh1
+    401812: nurbsCircle2
+    401814: nurbsCircle3
+    401816: nurbsCircle4
+    401818: nurbsToSubd1
+    401820: nurbsToSubd2
+    401822: nurbsToSubd3
+    401824: nurbsToSubd4
+    401826: pCylinder100
+    401828: pCylinder101
+    401830: pCylinder102
+    401832: pCylinder103
+    401834: pCylinder52
+    401836: pCylinder53
+    401838: pCylinder54
+    401840: pCylinder55
+    401842: pCylinder56
+    401844: pCylinder57
+    401846: pCylinder58
+    401848: pCylinder60
+    401850: pCylinder62
+    401852: pCylinder64
+    401854: pCylinder66
+    401856: pCylinder68
+    401858: pCylinder70
+    401860: pCylinder72
+    401862: pCylinder76
+    401864: pCylinder77
+    401866: pCylinder78
+    401868: pCylinder79
+    401870: pCylinder80
+    401872: pCylinder81
+    401874: pCylinder82
+    401876: pCylinder83
+    401878: pCylinder84
+    401880: pCylinder85
+    401882: pCylinder86
+    401884: pCylinder87
+    401886: pCylinder88
+    401888: pCylinder89
+    401890: pCylinder91
+    401892: pCylinder92
+    401894: pCylinder93
+    401896: pCylinder94
+    401898: pCylinder95
+    401900: pCylinder96
+    401902: pCylinder97
+    401904: pCylinder98
+    401906: pCylinder99
+    401908: polySurface31
+    401910: polySurface31 1
+    401912: polySurface31 2
+    401914: polySurface31 3
+    401916: polySurface35
+    401918: polySurface37
+    401920: polySurface38
+    401922: polySurface39
+    401924: polySurface40
+    401926: polySurface72
+    401928: polySurface73
+    401930: polySurface74
+    401932: polySurface75
+    401934: polySurface76
+    401936: polySurface77
+    401938: polySurface78
+    401940: polySurface79
+    401942: polySurface80
+    401944: polySurface81
+    401946: pSphere1
+    401948: right_back_prop
+    401950: right_prop
+    401952: transform100
+    401954: transform101
+    401956: transform102
+    401958: transform103
+    401960: transform104
+    401962: transform105
+    401964: transform106
+    401966: transform107
+    401968: transform108
+    401970: transform109
+    401972: transform110
+    401974: transform111
+    401976: transform112
+    401978: transform113
+    401980: transform114
+    401982: transform116
+    401984: transform117
+    401986: transform118
+    401988: transform119
+    401990: transform120
+    401992: transform121
+    401994: transform122
+    401996: transform123
+    401998: transform124
+    402000: transform125
+    402002: transform126
+    402004: transform127
+    402006: transform128
+    402008: transform129
+    402010: transform130
+    402012: transform131
+    402014: transform132
+    402016: transform133
+    402018: transform134
+    402020: transform135
+    402022: transform136
+    402024: transform137
+    402026: transform138
+    402028: transform139
+    402030: transform140
+    402032: transform141
+    402034: transform142
+    402036: transform97
+    402038: transform98
+    402040: transform99
+    2300000: drone
+    2300002: left_back_prop
+    2300004: left_prop
+    2300006: pCylinder103
+    2300008: pCylinder52
+    2300010: pCylinder53
+    2300012: pCylinder54
+    2300014: pCylinder55
+    2300016: pCylinder56
+    2300018: pCylinder57
+    2300020: pCylinder84
+    2300022: pCylinder85
+    2300024: pCylinder86
+    2300026: polySurface31
+    2300028: polySurface31 1
+    2300030: polySurface31 2
+    2300032: polySurface31 3
+    2300034: polySurface35
+    2300036: polySurface37
+    2300038: polySurface38
+    2300040: polySurface39
+    2300042: polySurface40
+    2300044: polySurface75
+    2300046: polySurface78
+    2300048: polySurface79
+    2300050: polySurface80
+    2300052: polySurface81
+    2300054: pSphere1
+    2300056: right_back_prop
+    2300058: right_prop
+    3300000: drone
+    3300002: left_back_prop
+    3300004: left_prop
+    3300006: pCylinder103
+    3300008: pCylinder52
+    3300010: pCylinder53
+    3300012: pCylinder54
+    3300014: pCylinder55
+    3300016: pCylinder56
+    3300018: pCylinder57
+    3300020: pCylinder84
+    3300022: pCylinder85
+    3300024: pCylinder86
+    3300026: polySurface31
+    3300028: polySurface31 1
+    3300030: polySurface31 2
+    3300032: polySurface31 3
+    3300034: polySurface35
+    3300036: polySurface37
+    3300038: polySurface38
+    3300040: polySurface39
+    3300042: polySurface40
+    3300044: polySurface75
+    3300046: polySurface78
+    3300048: polySurface79
+    3300050: polySurface80
+    3300052: polySurface81
+    3300054: pSphere1
+    3300056: right_back_prop
+    3300058: right_prop
+    4300000: drone
+    4300002: polySurface35
+    4300004: polySurface38
+    4300006: polySurface31
+    4300008: left_prop
+    4300010: polySurface37
+    4300012: polySurface31
+    4300014: right_prop
+    4300016: polySurface39
+    4300018: polySurface31
+    4300020: left_back_prop
+    4300022: polySurface40
+    4300024: polySurface31
+    4300026: right_back_prop
+    4300028: pCylinder57
+    4300030: pCylinder55
+    4300032: pCylinder52
+    4300034: pCylinder53
+    4300036: pCylinder54
+    4300038: pCylinder56
+    4300040: pSphere1
+    4300042: polySurface78
+    4300044: pCylinder85
+    4300046: polySurface75
+    4300048: pCylinder84
+    4300050: polySurface79
+    4300052: pCylinder103
+    4300054: polySurface81
+    4300056: pCylinder86
+    4300058: polySurface80
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: directionalLight1
+        weight: 1
+      - path: directionalLight2
+        weight: 1
+      - path: drone
+        weight: 1
+      - path: drone/curve1
+        weight: 1
+      - path: drone/nurbsCircle2
+        weight: 1
+      - path: drone/nurbsCircle3
+        weight: 1
+      - path: drone/nurbsCircle4
+        weight: 1
+      - path: drone/pCylinder52
+        weight: 1
+      - path: drone/pCylinder53
+        weight: 1
+      - path: drone/pCylinder54
+        weight: 1
+      - path: drone/pCylinder55
+        weight: 1
+      - path: drone/pCylinder56
+        weight: 1
+      - path: drone/pCylinder57
+        weight: 1
+      - path: drone/pCylinder84
+        weight: 1
+      - path: drone/pCylinder84/polySurface79
+        weight: 1
+      - path: drone/pCylinder85
+        weight: 1
+      - path: drone/pCylinder85/polySurface75
+        weight: 1
+      - path: drone/pCylinder103
+        weight: 1
+      - path: drone/pCylinder103/polySurface81
+        weight: 1
+      - path: drone/pCylinder103/polySurface81/pCylinder86
+        weight: 1
+      - path: drone/pCylinder103/polySurface81/pCylinder86/polySurface80
+        weight: 1
+      - path: drone/polySurface35
+        weight: 1
+      - path: drone/polySurface35/polySurface37
+        weight: 1
+      - path: drone/polySurface35/polySurface37/polySurface31
+        weight: 1
+      - path: drone/polySurface35/polySurface37/polySurface31/right_prop
+        weight: 1
+      - path: drone/polySurface35/polySurface38
+        weight: 1
+      - path: drone/polySurface35/polySurface38/polySurface31 1
+        weight: 1
+      - path: drone/polySurface35/polySurface38/polySurface31 1/left_prop
+        weight: 1
+      - path: drone/polySurface35/polySurface39
+        weight: 1
+      - path: drone/polySurface35/polySurface39/polySurface31 2
+        weight: 1
+      - path: drone/polySurface35/polySurface39/polySurface31 2/left_back_prop
+        weight: 1
+      - path: drone/polySurface35/polySurface40
+        weight: 1
+      - path: drone/polySurface35/polySurface40/polySurface31 3
+        weight: 1
+      - path: drone/polySurface35/polySurface40/polySurface31 3/right_back_prop
+        weight: 1
+      - path: drone/polySurface78
+        weight: 1
+      - path: drone/pSphere1
+        weight: 1
+      - path: drone_2:_UNKNOWN_REF_NODE_fosterParent1
+        weight: 1
+      - path: drone_2:_UNKNOWN_REF_NODE_fosterParent1/drone_2:imagePlane1
+        weight: 1
+      - path: drone_2:drone_good:joint37
+        weight: 1
+      - path: drone_2:drone_good:pCylinder1
+        weight: 1
+      - path: drone_2:drone_good:pCylinder1/drone_2:drone_good:transform2
+        weight: 1
+      - path: drone_2:drone_good:pCylinder3
+        weight: 1
+      - path: drone_2:drone_good:pCylinder3/drone_2:drone_good:transform8
+        weight: 1
+      - path: drone_2:drone_good:pCylinder4
+        weight: 1
+      - path: drone_2:drone_good:pCylinder4/drone_2:drone_good:transform6
+        weight: 1
+      - path: drone_2:drone_good:pCylinder5
+        weight: 1
+      - path: drone_2:drone_good:pCylinder5/drone_2:drone_good:transform14 1
+        weight: 1
+      - path: drone_2:drone_good:pCylinder6
+        weight: 1
+      - path: drone_2:drone_good:pCylinder6/drone_2:drone_good:transform13 1
+        weight: 1
+      - path: drone_2:drone_good:pCylinder7
+        weight: 1
+      - path: drone_2:drone_good:pCylinder7/drone_2:drone_good:transform2 1
+        weight: 1
+      - path: drone_2:drone_good:pCylinder8
+        weight: 1
+      - path: drone_2:drone_good:pCylinder8/drone_2:drone_good:transform8 1
+        weight: 1
+      - path: drone_2:drone_good:pCylinder9
+        weight: 1
+      - path: drone_2:drone_good:pCylinder9/drone_2:drone_good:transform6 1
+        weight: 1
+      - path: drone_2:drone_good:pCylinder10
+        weight: 1
+      - path: drone_2:drone_good:pCylinder10/drone_2:drone_good:transform14
+        weight: 1
+      - path: drone_2:drone_good:pCylinder11
+        weight: 1
+      - path: drone_2:drone_good:pCylinder11/drone_2:drone_good:transform13
+        weight: 1
+      - path: drone_2:drone_good:polySurface1
+        weight: 1
+      - path: drone_2:drone_good:polySurface1/drone_2:drone_good:transform4
+        weight: 1
+      - path: drone_2:drone_good:polySurface2
+        weight: 1
+      - path: drone_2:drone_good:polySurface2/drone_2:drone_good:transform5 1
+        weight: 1
+      - path: drone_2:drone_good:polySurface3
+        weight: 1
+      - path: drone_2:drone_good:polySurface3/drone_2:drone_good:transform7 1
+        weight: 1
+      - path: drone_2:drone_good:polySurface4
+        weight: 1
+      - path: drone_2:drone_good:polySurface4/drone_2:drone_good:polySurface5 1
+        weight: 1
+      - path: drone_2:drone_good:polySurface4/drone_2:drone_good:polySurface5 1/drone_2:drone_good:transform11
+          1
+        weight: 1
+      - path: drone_2:drone_good:polySurface4/drone_2:drone_good:polySurface6 1
+        weight: 1
+      - path: drone_2:drone_good:polySurface4/drone_2:drone_good:polySurface6 1/drone_2:drone_good:transform10
+          1
+        weight: 1
+      - path: drone_2:drone_good:polySurface4/drone_2:drone_good:transform9 1
+        weight: 1
+      - path: drone_2:drone_good:polySurface7
+        weight: 1
+      - path: drone_2:drone_good:polySurface7/drone_2:drone_good:transform12 1
+        weight: 1
+      - path: drone_2:drone_good:polySurface9
+        weight: 1
+      - path: drone_2:drone_good:polySurface9/drone_2:drone_good:transform4 1
+        weight: 1
+      - path: drone_2:drone_good:polySurface10
+        weight: 1
+      - path: drone_2:drone_good:polySurface10/drone_2:drone_good:transform5
+        weight: 1
+      - path: drone_2:drone_good:polySurface11
+        weight: 1
+      - path: drone_2:drone_good:polySurface11/drone_2:drone_good:transform7
+        weight: 1
+      - path: drone_2:drone_good:polySurface12
+        weight: 1
+      - path: drone_2:drone_good:polySurface12/drone_2:drone_good:polySurface5
+        weight: 1
+      - path: drone_2:drone_good:polySurface12/drone_2:drone_good:polySurface5/drone_2:drone_good:transform11
+        weight: 1
+      - path: drone_2:drone_good:polySurface12/drone_2:drone_good:polySurface6
+        weight: 1
+      - path: drone_2:drone_good:polySurface12/drone_2:drone_good:polySurface6/drone_2:drone_good:transform10
+        weight: 1
+      - path: drone_2:drone_good:polySurface12/drone_2:drone_good:transform9
+        weight: 1
+      - path: drone_2:drone_good:polySurface13
+        weight: 1
+      - path: drone_2:drone_good:polySurface13/drone_2:drone_good:transform12
+        weight: 1
+      - path: drone_2:drone_good:polySurface14
+        weight: 1
+      - path: drone_2:drone_good:polySurface14/drone_2:drone_good:polySurface18
+        weight: 1
+      - path: drone_2:drone_good:polySurface14/drone_2:drone_good:polySurface18/drone_2:drone_good:polySurface19
+        weight: 1
+      - path: drone_2:drone_good:pPipe1
+        weight: 1
+      - path: drone_2:drone_good:pPipe1/drone_2:drone_good:transform1
+        weight: 1
+      - path: drone_2:drone_good:pPipe2
+        weight: 1
+      - path: drone_2:drone_good:pPipe2/drone_2:drone_good:transform3
+        weight: 1
+      - path: drone_2:drone_good:pPipe3
+        weight: 1
+      - path: drone_2:drone_good:pPipe3/drone_2:drone_good:transform1 1
+        weight: 1
+      - path: drone_2:drone_good:pPipe4
+        weight: 1
+      - path: drone_2:drone_good:pPipe4/drone_2:drone_good:transform3 1
+        weight: 1
+      - path: drone_2:group
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group2
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group2/drone_2:pasted__pCylinder2 6
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group2/drone_2:pasted__pCylinder2 6/drone_2:pasted__transform17
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group3
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group3/drone_2:pasted__pCylinder2 7
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group3/drone_2:pasted__pCylinder2 7/drone_2:pasted__transform16
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group4
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group4/drone_2:pasted__pCylinder2 8
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group4/drone_2:pasted__pCylinder2 8/drone_2:pasted__transform15
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group5
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group5/drone_2:pasted__pCylinder2 9
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group5/drone_2:pasted__pCylinder2 9/drone_2:pasted__transform14
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group6
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group6/drone_2:pasted__pCylinder2 10
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group6/drone_2:pasted__pCylinder2 10/drone_2:pasted__transform13
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group7
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group7/drone_2:pasted__pCylinder2 11
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group7/drone_2:pasted__pCylinder2 11/drone_2:pasted__transform12
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group8
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group8/drone_2:pasted__pCylinder2 12
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group8/drone_2:pasted__pCylinder2 12/drone_2:pasted__transform11
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group9
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group9/drone_2:pasted__pCylinder2 13
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group9/drone_2:pasted__pCylinder2 13/drone_2:pasted__transform10
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group10
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group10/drone_2:pasted__pCylinder2
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group10/drone_2:pasted__pCylinder2/drone_2:pasted__transform9
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group11
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group11/drone_2:pasted__pCylinder2 1
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group11/drone_2:pasted__pCylinder2 1/drone_2:pasted__transform8
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group12
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group12/drone_2:pasted__pCylinder2 2
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group12/drone_2:pasted__pCylinder2 2/drone_2:pasted__transform7
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group13
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group13/drone_2:pasted__pCylinder2 3
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group13/drone_2:pasted__pCylinder2 3/drone_2:pasted__transform6
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group14
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group14/drone_2:pasted__pCylinder2 4
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group14/drone_2:pasted__pCylinder2 4/drone_2:pasted__transform5
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group15
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group15/drone_2:pasted__pCylinder2 5
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__group15/drone_2:pasted__pCylinder2 5/drone_2:pasted__transform4
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__nurbsToSubd1
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__nurbsToSubd1/drone_2:pasted__transform23
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__nurbsToSubd2
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__nurbsToSubd2/drone_2:pasted__transform21
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__nurbsToSubd3
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__nurbsToSubd3/drone_2:pasted__transform22
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__nurbsToSubd4
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__nurbsToSubd4/drone_2:pasted__transform24
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder1
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder1/drone_2:pasted__transform18
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder4
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder4/drone_2:pasted__transform29
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder5
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder5/drone_2:pasted__transform28
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder6
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder6/drone_2:pasted__transform27
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder7
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder7/drone_2:pasted__transform26
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder8
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder8/drone_2:pasted__transform25
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder9
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pCylinder9/drone_2:pasted__transform20
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pPipe1
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pPipe1/drone_2:pasted__transform19
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pPipe2
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pPipe2/drone_2:pasted__transform3
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pPipe3
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pPipe3/drone_2:pasted__transform2
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pPipe4
+        weight: 1
+      - path: drone_2:group/drone_2:pasted__pPipe4/drone_2:pasted__transform1
+        weight: 1
+      - path: drone_2:group1
+        weight: 1
+      - path: drone_2:group2
+        weight: 1
+      - path: drone_2:group2/drone_2:pCylinder2 6
+        weight: 1
+      - path: drone_2:group2/drone_2:pCylinder2 6/drone_2:transform17
+        weight: 1
+      - path: drone_2:group3
+        weight: 1
+      - path: drone_2:group3/drone_2:pCylinder2 7
+        weight: 1
+      - path: drone_2:group3/drone_2:pCylinder2 7/drone_2:transform16
+        weight: 1
+      - path: drone_2:group4
+        weight: 1
+      - path: drone_2:group4/drone_2:pCylinder2 8
+        weight: 1
+      - path: drone_2:group4/drone_2:pCylinder2 8/drone_2:transform15
+        weight: 1
+      - path: drone_2:group5
+        weight: 1
+      - path: drone_2:group5/drone_2:pCylinder2 9
+        weight: 1
+      - path: drone_2:group5/drone_2:pCylinder2 9/drone_2:transform14
+        weight: 1
+      - path: drone_2:group6
+        weight: 1
+      - path: drone_2:group6/drone_2:pCylinder2 10
+        weight: 1
+      - path: drone_2:group6/drone_2:pCylinder2 10/drone_2:transform13
+        weight: 1
+      - path: drone_2:group7
+        weight: 1
+      - path: drone_2:group7/drone_2:pCylinder2 11
+        weight: 1
+      - path: drone_2:group7/drone_2:pCylinder2 11/drone_2:transform12
+        weight: 1
+      - path: drone_2:group8
+        weight: 1
+      - path: drone_2:group8/drone_2:pCylinder2 12
+        weight: 1
+      - path: drone_2:group8/drone_2:pCylinder2 12/drone_2:transform11
+        weight: 1
+      - path: drone_2:group9
+        weight: 1
+      - path: drone_2:group9/drone_2:pCylinder2 13
+        weight: 1
+      - path: drone_2:group9/drone_2:pCylinder2 13/drone_2:transform10
+        weight: 1
+      - path: drone_2:group10
+        weight: 1
+      - path: drone_2:group10/drone_2:pCylinder2
+        weight: 1
+      - path: drone_2:group10/drone_2:pCylinder2/drone_2:transform9
+        weight: 1
+      - path: drone_2:group11
+        weight: 1
+      - path: drone_2:group11/drone_2:pCylinder2 1
+        weight: 1
+      - path: drone_2:group11/drone_2:pCylinder2 1/drone_2:transform8
+        weight: 1
+      - path: drone_2:group12
+        weight: 1
+      - path: drone_2:group12/drone_2:pCylinder2 2
+        weight: 1
+      - path: drone_2:group12/drone_2:pCylinder2 2/drone_2:transform7
+        weight: 1
+      - path: drone_2:group13
+        weight: 1
+      - path: drone_2:group13/drone_2:pCylinder2 3
+        weight: 1
+      - path: drone_2:group13/drone_2:pCylinder2 3/drone_2:transform6
+        weight: 1
+      - path: drone_2:group14
+        weight: 1
+      - path: drone_2:group14/drone_2:pCylinder2 4
+        weight: 1
+      - path: drone_2:group14/drone_2:pCylinder2 4/drone_2:transform5
+        weight: 1
+      - path: drone_2:group15
+        weight: 1
+      - path: drone_2:group15/drone_2:pCylinder2 5
+        weight: 1
+      - path: drone_2:group15/drone_2:pCylinder2 5/drone_2:transform4
+        weight: 1
+      - path: drone_2:group16
+        weight: 1
+      - path: drone_2:group17
+        weight: 1
+      - path: drone_2:group18
+        weight: 1
+      - path: drone_2:group19
+        weight: 1
+      - path: drone_2:group20
+        weight: 1
+      - path: drone_2:group21
+        weight: 1
+      - path: drone_2:group22
+        weight: 1
+      - path: drone_2:group23
+        weight: 1
+      - path: drone_2:group24
+        weight: 1
+      - path: drone_2:group25
+        weight: 1
+      - path: drone_2:group26
+        weight: 1
+      - path: drone_2:group27
+        weight: 1
+      - path: drone_2:group28
+        weight: 1
+      - path: drone_2:group29
+        weight: 1
+      - path: drone_2:group30
+        weight: 1
+      - path: drone_2:group31
+        weight: 1
+      - path: drone_2:group32
+        weight: 1
+      - path: drone_2:group33
+        weight: 1
+      - path: drone_2:group34
+        weight: 1
+      - path: drone_2:group35
+        weight: 1
+      - path: drone_2:group36
+        weight: 1
+      - path: drone_2:group37
+        weight: 1
+      - path: drone_2:group38
+        weight: 1
+      - path: drone_2:group39
+        weight: 1
+      - path: drone_2:group40
+        weight: 1
+      - path: drone_2:group41
+        weight: 1
+      - path: drone_2:group42
+        weight: 1
+      - path: drone_2:group43
+        weight: 1
+      - path: drone_2:group44
+        weight: 1
+      - path: drone_2:group45
+        weight: 1
+      - path: drone_2:group46
+        weight: 1
+      - path: drone_2:group47
+        weight: 1
+      - path: drone_2:group48
+        weight: 1
+      - path: drone_2:group49
+        weight: 1
+      - path: drone_2:group50
+        weight: 1
+      - path: drone_2:group51
+        weight: 1
+      - path: drone_2:group51/drone_2:pasted__drone
+        weight: 1
+      - path: drone_2:group52
+        weight: 1
+      - path: drone_2:group52/drone_2:pasted__drone 1
+        weight: 1
+      - path: drone_2:group53
+        weight: 1
+      - path: drone_2:group53/drone_2:pasted__particle1
+        weight: 1
+      - path: drone_2:group54
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group2 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group2 1/drone_2:pasted__pCylinder2
+          20
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group2 1/drone_2:pasted__pCylinder2
+          20/drone_2:pasted__transform17 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group3 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group3 1/drone_2:pasted__pCylinder2
+          21
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group3 1/drone_2:pasted__pCylinder2
+          21/drone_2:pasted__transform16 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group4 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group4 1/drone_2:pasted__pCylinder2
+          22
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group4 1/drone_2:pasted__pCylinder2
+          22/drone_2:pasted__transform15 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group5 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group5 1/drone_2:pasted__pCylinder2
+          23
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group5 1/drone_2:pasted__pCylinder2
+          23/drone_2:pasted__transform14 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group6 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group6 1/drone_2:pasted__pCylinder2
+          24
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group6 1/drone_2:pasted__pCylinder2
+          24/drone_2:pasted__transform13 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group7 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group7 1/drone_2:pasted__pCylinder2
+          25
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group7 1/drone_2:pasted__pCylinder2
+          25/drone_2:pasted__transform12 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group8 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group8 1/drone_2:pasted__pCylinder2
+          26
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group8 1/drone_2:pasted__pCylinder2
+          26/drone_2:pasted__transform11 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group9 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group9 1/drone_2:pasted__pCylinder2
+          27
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group9 1/drone_2:pasted__pCylinder2
+          27/drone_2:pasted__transform10 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group10 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group10 1/drone_2:pasted__pCylinder2
+          14
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group10 1/drone_2:pasted__pCylinder2
+          14/drone_2:pasted__transform9 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group11 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group11 1/drone_2:pasted__pCylinder2
+          15
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group11 1/drone_2:pasted__pCylinder2
+          15/drone_2:pasted__transform8 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group12 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group12 1/drone_2:pasted__pCylinder2
+          16
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group12 1/drone_2:pasted__pCylinder2
+          16/drone_2:pasted__transform7 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group13 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group13 1/drone_2:pasted__pCylinder2
+          17
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group13 1/drone_2:pasted__pCylinder2
+          17/drone_2:pasted__transform6 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group14 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group14 1/drone_2:pasted__pCylinder2
+          18
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group14 1/drone_2:pasted__pCylinder2
+          18/drone_2:pasted__transform5 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group15 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group15 1/drone_2:pasted__pCylinder2
+          19
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group15 1/drone_2:pasted__pCylinder2
+          19/drone_2:pasted__transform4 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group53
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__group53/drone_2:pasted__pasted__particle1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToPoly1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToPoly1/drone_2:pasted__transform82
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd1 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd1 1/drone_2:pasted__transform23
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd2 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd2 1/drone_2:pasted__transform21
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd3 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd3 1/drone_2:pasted__transform22
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd4 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd4 1/drone_2:pasted__transform24
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd5
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd5/drone_2:pasted__transform80
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd6
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__nurbsToSubd6/drone_2:pasted__transform81
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__particle1 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder1 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder1 1/drone_2:pasted__transform18
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder4 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder4 1/drone_2:pasted__transform29
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder5 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder5 1/drone_2:pasted__transform28
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder6 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder6 1/drone_2:pasted__transform27
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder7 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder7 1/drone_2:pasted__transform26
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder8 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder8 1/drone_2:pasted__transform25
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder9 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder9 1/drone_2:pasted__transform20
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder58
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder58/drone_2:pasted__transform97
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder60
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder60/drone_2:pasted__transform104
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder62
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder62/drone_2:pasted__transform103
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder64
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder64/drone_2:pasted__transform102
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder66
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder66/drone_2:pasted__transform101
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder68
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder68/drone_2:pasted__transform100
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder70
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder70/drone_2:pasted__transform99
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder72
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder72/drone_2:pasted__transform98
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder76
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder76/drone_2:pasted__transform109
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder77
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder77/drone_2:pasted__transform105
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder78
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder78/drone_2:pasted__transform112
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder79
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder79/drone_2:pasted__transform108
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder80
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder80/drone_2:pasted__transform110
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder81
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder81/drone_2:pasted__transform106
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder82
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pCylinder82/drone_2:pasted__transform107
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface30
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface30/drone_2:pasted__polySurface32
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface30/drone_2:pasted__polySurface32/drone_2:pasted__transform79
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface30/drone_2:pasted__polySurface34
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface30/drone_2:pasted__polySurface34/drone_2:pasted__polySurface36
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface30/drone_2:pasted__polySurface34/drone_2:pasted__polySurface36/drone_2:pasted__transform78
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface30/drone_2:pasted__polySurface34/drone_2:pasted__transform77
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface30/drone_2:pasted__transform76
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface72
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__polySurface72/drone_2:pasted__transform111
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pPipe1 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pPipe1 1/drone_2:pasted__transform19
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pPipe2 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pPipe2 1/drone_2:pasted__transform3
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pPipe3 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pPipe3 1/drone_2:pasted__transform2
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pPipe4 1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__pPipe4 1/drone_2:pasted__transform1
+          1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__fin
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__fin/drone_2:pasted__transform75
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__fin1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__fin1/drone_2:pasted__transform62
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__fins
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__fins/drone_2:pasted__transform61
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder3
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder3/drone_2:pasted__transform74
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder10
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder10/drone_2:pasted__transform73
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder11
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder11/drone_2:pasted__transform72
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder12
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder12/drone_2:pasted__transform71
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder13
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder13/drone_2:pasted__transform70
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder14
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder14/drone_2:pasted__transform69
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder15
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder15/drone_2:pasted__transform68
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder16
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder16/drone_2:pasted__transform67
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder17
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder17/drone_2:pasted__transform66
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder18
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder18/drone_2:pasted__transform65
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder19
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder19/drone_2:pasted__transform64
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder20
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__pCylinder20/drone_2:pasted__transform63
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface11
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface11/drone_2:pasted__transform60
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface12
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface12/drone_2:pasted__transform59
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface13
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface13/drone_2:pasted__transform58
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface14
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface14/drone_2:pasted__transform57
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface15
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface15/drone_2:pasted__transform56
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface16
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface16/drone_2:pasted__transform55
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface17
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface17/drone_2:pasted__transform54
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface18
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface18/drone_2:pasted__transform53
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface19
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface19/drone_2:pasted__transform52
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface20
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface20/drone_2:pasted__transform51
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface21
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface21/drone_2:pasted__transform50
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface22
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface22/drone_2:pasted__transform49
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface23
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface23/drone_2:pasted__transform48
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface24
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface24/drone_2:pasted__transform47
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface25
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface25/drone_2:pasted__transform46
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface26
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface26/drone_2:pasted__transform45
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface27
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface27/drone_2:pasted__transform44
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface28
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface28/drone_2:pasted__transform43
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface29
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__polySurface29/drone_2:pasted__transform42
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__engine_1/drone_2:pasted__transform31
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface1
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface1/drone_2:pasted__transform41
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface2
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface2/drone_2:pasted__transform40
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface3
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface3/drone_2:pasted__transform39
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface4
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface4/drone_2:pasted__transform38
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface5
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface5/drone_2:pasted__transform37
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface6
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface6/drone_2:pasted__transform36
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface7
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface7/drone_2:pasted__transform35
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface8
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface8/drone_2:pasted__transform34
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface9
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface9/drone_2:pasted__transform33
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface10
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__polySurface10/drone_2:pasted__transform32
+        weight: 1
+      - path: drone_2:group54/drone_2:pasted__RIGHT_JOINT/drone_2:pasted__transform30
+        weight: 1
+      - path: drone_2:instancer1
+        weight: 1
+      - path: drone_2:instancer2
+        weight: 1
+      - path: drone_2:instancer3
+        weight: 1
+      - path: drone_2:mech_1:group
+        weight: 1
+      - path: drone_2:mech_1:group/drone_2:mech_1:pasted__pCylinder1
+        weight: 1
+      - path: drone_2:mech_1:group/drone_2:mech_1:pasted__pCylinder1/drone_2:mech_1:pasted__polySurface4
+        weight: 1
+      - path: drone_2:mech_1:group/drone_2:mech_1:pasted__pCylinder1/drone_2:mech_1:pasted__polySurface4/drone_2:mech_1:pasted__transform3
+        weight: 1
+      - path: drone_2:mech_1:group/drone_2:mech_1:pasted__pCylinder1/drone_2:mech_1:pasted__transform2
+        weight: 1
+      - path: drone_2:mech_1:group/drone_2:mech_1:pasted__pCylinder3
+        weight: 1
+      - path: drone_2:mech_1:group/drone_2:mech_1:pasted__pCylinder3/drone_2:mech_1:pasted__transform4
+        weight: 1
+      - path: drone_2:mech_1:group1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube1/drone_2:mech_1:pasted__polySurface1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube1/drone_2:mech_1:pasted__polySurface1/drone_2:mech_1:pasted__transform6
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube1/drone_2:mech_1:pasted__polySurface2
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube1/drone_2:mech_1:pasted__polySurface2/drone_2:mech_1:pasted__transform5
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube1/drone_2:mech_1:pasted__transform1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube3
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube3/drone_2:mech_1:pasted__transform31
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube4
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube4/drone_2:mech_1:pasted__transform25
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube5
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube5/drone_2:mech_1:pasted__transform23
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube6
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube6/drone_2:mech_1:pasted__transform22
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube8
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube8/drone_2:mech_1:pasted__transform21
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube9
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCube9/drone_2:mech_1:pasted__transform24
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder1 1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder1 1/drone_2:mech_1:pasted__polySurface4
+          1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder1 1/drone_2:mech_1:pasted__polySurface4
+          1/drone_2:mech_1:pasted__transform3 1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder1 1/drone_2:mech_1:pasted__transform2
+          1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder3 1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder3 1/drone_2:mech_1:pasted__transform4
+          1
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder5
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder5/drone_2:mech_1:pasted__transform15
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder7
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder7/drone_2:mech_1:pasted__transform20
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder8
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder8/drone_2:mech_1:pasted__transform19
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder9
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder9/drone_2:mech_1:pasted__transform18
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder10
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder10/drone_2:mech_1:pasted__transform17
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder11
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder11/drone_2:mech_1:pasted__transform16
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder12
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder12/drone_2:mech_1:pasted__transform14
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder13
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder13/drone_2:mech_1:pasted__transform13
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder14
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder14/drone_2:mech_1:pasted__transform12
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder15
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder15/drone_2:mech_1:pasted__transform11
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder16
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder16/drone_2:mech_1:pasted__transform10
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder17
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder17/drone_2:mech_1:pasted__transform9
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder18
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder18/drone_2:mech_1:pasted__transform34
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder19
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder19/drone_2:mech_1:pasted__transform35
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder20
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__pCylinder20/drone_2:mech_1:pasted__transform33
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface16
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface16/drone_2:mech_1:pasted__transform37
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface17
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface17/drone_2:mech_1:pasted__transform36
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18/drone_2:mech_1:pasted__polySurface20
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18/drone_2:mech_1:pasted__polySurface20/drone_2:mech_1:pasted__transform30
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18/drone_2:mech_1:pasted__polySurface21
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18/drone_2:mech_1:pasted__polySurface21/drone_2:mech_1:pasted__transform29
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18/drone_2:mech_1:pasted__polySurface22
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18/drone_2:mech_1:pasted__polySurface22/drone_2:mech_1:pasted__transform28
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18/drone_2:mech_1:pasted__polySurface23
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18/drone_2:mech_1:pasted__polySurface23/drone_2:mech_1:pasted__transform27
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface18/drone_2:mech_1:pasted__transform26
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface24
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface24/drone_2:mech_1:pasted__transform32
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface25
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface25/drone_2:mech_1:pasted__transform39
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface26
+        weight: 1
+      - path: drone_2:mech_1:group1/drone_2:mech_1:pasted__polySurface26/drone_2:mech_1:pasted__transform38
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly1
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly1/drone_2:mech_1:motercycle_engine:transform2
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly2
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly2/drone_2:mech_1:motercycle_engine:transform1
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly3
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly3/drone_2:mech_1:motercycle_engine:transform27
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly4
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly4/drone_2:mech_1:motercycle_engine:transform26
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly5
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly5/drone_2:mech_1:motercycle_engine:transform25
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly6
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly6/drone_2:mech_1:motercycle_engine:transform24
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly7
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly7/drone_2:mech_1:motercycle_engine:transform23
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly8
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly8/drone_2:mech_1:motercycle_engine:transform22
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly9
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly9/drone_2:mech_1:motercycle_engine:transform21
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly10
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly10/drone_2:mech_1:motercycle_engine:transform20
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly11
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly11/drone_2:mech_1:motercycle_engine:transform19
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly12
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly12/drone_2:mech_1:motercycle_engine:transform18
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly13
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly13/drone_2:mech_1:motercycle_engine:transform17
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly14
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly14/drone_2:mech_1:motercycle_engine:transform16
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly15
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly15/drone_2:mech_1:motercycle_engine:transform15
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly16
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly16/drone_2:mech_1:motercycle_engine:transform14
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly17
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly17/drone_2:mech_1:motercycle_engine:transform13
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly18
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly18/drone_2:mech_1:motercycle_engine:transform12
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly19
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly19/drone_2:mech_1:motercycle_engine:transform11
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly20
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly20/drone_2:mech_1:motercycle_engine:transform10
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly21
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly21/drone_2:mech_1:motercycle_engine:transform9
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly22
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly22/drone_2:mech_1:motercycle_engine:transform8
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly23
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly23/drone_2:mech_1:motercycle_engine:transform7
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly24
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly24/drone_2:mech_1:motercycle_engine:transform6
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly25
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly25/drone_2:mech_1:motercycle_engine:transform5
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly26
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly26/drone_2:mech_1:motercycle_engine:transform4
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly27
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:nurbsToPoly27/drone_2:mech_1:motercycle_engine:transform3
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube2
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube2/drone_2:mech_1:motercycle_engine:pCylinder1
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube2/drone_2:mech_1:motercycle_engine:pCylinder1/drone_2:mech_1:motercycle_engine:transform34
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube2/drone_2:mech_1:motercycle_engine:pCylinder6
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube2/drone_2:mech_1:motercycle_engine:pCylinder6/drone_2:mech_1:motercycle_engine:transform35
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube2/drone_2:mech_1:motercycle_engine:transform36
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube3
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube3/drone_2:mech_1:motercycle_engine:pCylinder1
+          1
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube3/drone_2:mech_1:motercycle_engine:pCylinder1
+          1/drone_2:mech_1:motercycle_engine:transform29
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube3/drone_2:mech_1:motercycle_engine:pCylinder6
+          1
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube3/drone_2:mech_1:motercycle_engine:pCylinder6
+          1/drone_2:mech_1:motercycle_engine:transform30
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCube3/drone_2:mech_1:motercycle_engine:transform31
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCylinder4
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pCylinder4/drone_2:mech_1:motercycle_engine:transform32
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pPipe1
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:pPipe1/drone_2:mech_1:motercycle_engine:transform33
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:pCylinder3/drone_2:mech_1:motercycle_engine:transform37
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:polySurface1
+        weight: 1
+      - path: drone_2:mech_1:motercycle_engine:polySurface1/drone_2:mech_1:motercycle_engine:transform28
+        weight: 1
+      - path: drone_2:mech_1:pCube1
+        weight: 1
+      - path: drone_2:mech_1:pCube1/drone_2:mech_1:polySurface1
+        weight: 1
+      - path: drone_2:mech_1:pCube1/drone_2:mech_1:polySurface1/drone_2:mech_1:transform6
+        weight: 1
+      - path: drone_2:mech_1:pCube1/drone_2:mech_1:polySurface2
+        weight: 1
+      - path: drone_2:mech_1:pCube1/drone_2:mech_1:polySurface2/drone_2:mech_1:transform5
+        weight: 1
+      - path: drone_2:mech_1:pCube1/drone_2:mech_1:transform1
+        weight: 1
+      - path: drone_2:mech_1:pCube3
+        weight: 1
+      - path: drone_2:mech_1:pCube3/drone_2:mech_1:transform31
+        weight: 1
+      - path: drone_2:mech_1:pCube4
+        weight: 1
+      - path: drone_2:mech_1:pCube4/drone_2:mech_1:transform25
+        weight: 1
+      - path: drone_2:mech_1:pCube5
+        weight: 1
+      - path: drone_2:mech_1:pCube5/drone_2:mech_1:transform23
+        weight: 1
+      - path: drone_2:mech_1:pCube6
+        weight: 1
+      - path: drone_2:mech_1:pCube6/drone_2:mech_1:transform22
+        weight: 1
+      - path: drone_2:mech_1:pCube8
+        weight: 1
+      - path: drone_2:mech_1:pCube8/drone_2:mech_1:transform21
+        weight: 1
+      - path: drone_2:mech_1:pCube9
+        weight: 1
+      - path: drone_2:mech_1:pCube9/drone_2:mech_1:transform24
+        weight: 1
+      - path: drone_2:mech_1:pCube11
+        weight: 1
+      - path: drone_2:mech_1:pCube11/drone_2:mech_1:transform63
+        weight: 1
+      - path: drone_2:mech_1:pCylinder1
+        weight: 1
+      - path: drone_2:mech_1:pCylinder1/drone_2:mech_1:polySurface4
+        weight: 1
+      - path: drone_2:mech_1:pCylinder1/drone_2:mech_1:polySurface4/drone_2:mech_1:transform3
+        weight: 1
+      - path: drone_2:mech_1:pCylinder1/drone_2:mech_1:transform2
+        weight: 1
+      - path: drone_2:mech_1:pCylinder3
+        weight: 1
+      - path: drone_2:mech_1:pCylinder3/drone_2:mech_1:transform4
+        weight: 1
+      - path: drone_2:mech_1:pCylinder5
+        weight: 1
+      - path: drone_2:mech_1:pCylinder5/drone_2:mech_1:transform15
+        weight: 1
+      - path: drone_2:mech_1:pCylinder7
+        weight: 1
+      - path: drone_2:mech_1:pCylinder7/drone_2:mech_1:transform20
+        weight: 1
+      - path: drone_2:mech_1:pCylinder8
+        weight: 1
+      - path: drone_2:mech_1:pCylinder8/drone_2:mech_1:transform19
+        weight: 1
+      - path: drone_2:mech_1:pCylinder9
+        weight: 1
+      - path: drone_2:mech_1:pCylinder9/drone_2:mech_1:transform18
+        weight: 1
+      - path: drone_2:mech_1:pCylinder10
+        weight: 1
+      - path: drone_2:mech_1:pCylinder10/drone_2:mech_1:transform17
+        weight: 1
+      - path: drone_2:mech_1:pCylinder11
+        weight: 1
+      - path: drone_2:mech_1:pCylinder11/drone_2:mech_1:transform16
+        weight: 1
+      - path: drone_2:mech_1:pCylinder12
+        weight: 1
+      - path: drone_2:mech_1:pCylinder12/drone_2:mech_1:transform14
+        weight: 1
+      - path: drone_2:mech_1:pCylinder13
+        weight: 1
+      - path: drone_2:mech_1:pCylinder13/drone_2:mech_1:transform13
+        weight: 1
+      - path: drone_2:mech_1:pCylinder14
+        weight: 1
+      - path: drone_2:mech_1:pCylinder14/drone_2:mech_1:transform12
+        weight: 1
+      - path: drone_2:mech_1:pCylinder15
+        weight: 1
+      - path: drone_2:mech_1:pCylinder15/drone_2:mech_1:transform11
+        weight: 1
+      - path: drone_2:mech_1:pCylinder16
+        weight: 1
+      - path: drone_2:mech_1:pCylinder16/drone_2:mech_1:transform10
+        weight: 1
+      - path: drone_2:mech_1:pCylinder17
+        weight: 1
+      - path: drone_2:mech_1:pCylinder17/drone_2:mech_1:transform9
+        weight: 1
+      - path: drone_2:mech_1:pCylinder18
+        weight: 1
+      - path: drone_2:mech_1:pCylinder18/drone_2:mech_1:transform34
+        weight: 1
+      - path: drone_2:mech_1:pCylinder19
+        weight: 1
+      - path: drone_2:mech_1:pCylinder19/drone_2:mech_1:transform35
+        weight: 1
+      - path: drone_2:mech_1:pCylinder20
+        weight: 1
+      - path: drone_2:mech_1:pCylinder20/drone_2:mech_1:transform33
+        weight: 1
+      - path: drone_2:mech_1:pCylinder31
+        weight: 1
+      - path: drone_2:mech_1:pCylinder31/drone_2:mech_1:transform43
+        weight: 1
+      - path: drone_2:mech_1:pCylinder32
+        weight: 1
+      - path: drone_2:mech_1:pCylinder32/drone_2:mech_1:transform42
+        weight: 1
+      - path: drone_2:mech_1:pCylinder33
+        weight: 1
+      - path: drone_2:mech_1:pCylinder33/drone_2:mech_1:transform41
+        weight: 1
+      - path: drone_2:mech_1:pCylinder34
+        weight: 1
+      - path: drone_2:mech_1:pCylinder34/drone_2:mech_1:transform40
+        weight: 1
+      - path: drone_2:mech_1:pCylinder35
+        weight: 1
+      - path: drone_2:mech_1:pCylinder35/drone_2:mech_1:transform48
+        weight: 1
+      - path: drone_2:mech_1:pCylinder36
+        weight: 1
+      - path: drone_2:mech_1:pCylinder36/drone_2:mech_1:transform47
+        weight: 1
+      - path: drone_2:mech_1:pCylinder37
+        weight: 1
+      - path: drone_2:mech_1:pCylinder37/drone_2:mech_1:transform46
+        weight: 1
+      - path: drone_2:mech_1:pCylinder38
+        weight: 1
+      - path: drone_2:mech_1:pCylinder38/drone_2:mech_1:transform45
+        weight: 1
+      - path: drone_2:mech_1:pCylinder41
+        weight: 1
+      - path: drone_2:mech_1:pCylinder42
+        weight: 1
+      - path: drone_2:mech_1:pCylinder42/drone_2:mech_1:transform57
+        weight: 1
+      - path: drone_2:mech_1:pCylinder43
+        weight: 1
+      - path: drone_2:mech_1:pCylinder43/drone_2:mech_1:transform56
+        weight: 1
+      - path: drone_2:mech_1:pCylinder44
+        weight: 1
+      - path: drone_2:mech_1:pCylinder44/drone_2:mech_1:transform55
+        weight: 1
+      - path: drone_2:mech_1:pCylinder45
+        weight: 1
+      - path: drone_2:mech_1:pCylinder45/drone_2:mech_1:transform54
+        weight: 1
+      - path: drone_2:mech_1:pCylinder46
+        weight: 1
+      - path: drone_2:mech_1:pCylinder46/drone_2:mech_1:transform53
+        weight: 1
+      - path: drone_2:mech_1:pCylinder47
+        weight: 1
+      - path: drone_2:mech_1:pCylinder47/drone_2:mech_1:transform52
+        weight: 1
+      - path: drone_2:mech_1:pCylinder48
+        weight: 1
+      - path: drone_2:mech_1:pCylinder48/drone_2:mech_1:transform51
+        weight: 1
+      - path: drone_2:mech_1:pCylinder49
+        weight: 1
+      - path: drone_2:mech_1:pCylinder49/drone_2:mech_1:transform50
+        weight: 1
+      - path: drone_2:mech_1:pCylinder50
+        weight: 1
+      - path: drone_2:mech_1:pCylinder50/drone_2:mech_1:transform65
+        weight: 1
+      - path: drone_2:mech_1:polySurface16
+        weight: 1
+      - path: drone_2:mech_1:polySurface16/drone_2:mech_1:transform37
+        weight: 1
+      - path: drone_2:mech_1:polySurface17
+        weight: 1
+      - path: drone_2:mech_1:polySurface17/drone_2:mech_1:transform36
+        weight: 1
+      - path: drone_2:mech_1:polySurface18
+        weight: 1
+      - path: drone_2:mech_1:polySurface18/drone_2:mech_1:polySurface20
+        weight: 1
+      - path: drone_2:mech_1:polySurface18/drone_2:mech_1:polySurface20/drone_2:mech_1:transform30
+        weight: 1
+      - path: drone_2:mech_1:polySurface18/drone_2:mech_1:polySurface21
+        weight: 1
+      - path: drone_2:mech_1:polySurface18/drone_2:mech_1:polySurface21/drone_2:mech_1:transform29
+        weight: 1
+      - path: drone_2:mech_1:polySurface18/drone_2:mech_1:polySurface22
+        weight: 1
+      - path: drone_2:mech_1:polySurface18/drone_2:mech_1:polySurface22/drone_2:mech_1:transform28
+        weight: 1
+      - path: drone_2:mech_1:polySurface18/drone_2:mech_1:polySurface23
+        weight: 1
+      - path: drone_2:mech_1:polySurface18/drone_2:mech_1:polySurface23/drone_2:mech_1:transform27
+        weight: 1
+      - path: drone_2:mech_1:polySurface18/drone_2:mech_1:transform26
+        weight: 1
+      - path: drone_2:mech_1:polySurface24
+        weight: 1
+      - path: drone_2:mech_1:polySurface24/drone_2:mech_1:transform32
+        weight: 1
+      - path: drone_2:mech_1:polySurface25
+        weight: 1
+      - path: drone_2:mech_1:polySurface25/drone_2:mech_1:transform39
+        weight: 1
+      - path: drone_2:mech_1:polySurface26
+        weight: 1
+      - path: drone_2:mech_1:polySurface26/drone_2:mech_1:transform38
+        weight: 1
+      - path: drone_2:mech_1:polySurface29
+        weight: 1
+      - path: drone_2:mech_1:polySurface29/drone_2:mech_1:transform44
+        weight: 1
+      - path: drone_2:mech_1:polySurface32
+        weight: 1
+      - path: drone_2:mech_1:polySurface32/drone_2:mech_1:transform62
+        weight: 1
+      - path: drone_2:mech_1:polySurface33
+        weight: 1
+      - path: drone_2:mech_1:polySurface33/drone_2:mech_1:transform61
+        weight: 1
+      - path: drone_2:mech_1:polySurface34
+        weight: 1
+      - path: drone_2:mech_1:polySurface34/drone_2:mech_1:transform66
+        weight: 1
+      - path: drone_2:mech_1:polySurface35
+        weight: 1
+      - path: drone_2:mech_1:polySurface35/drone_2:mech_1:transform64
+        weight: 1
+      - path: drone_2:mech_1:pPipe1
+        weight: 1
+      - path: drone_2:mech_1:pPipe1/drone_2:mech_1:transform59
+        weight: 1
+      - path: drone_2:mech_1:pPipe2
+        weight: 1
+      - path: drone_2:mech_1:pPipe2/drone_2:mech_1:transform58
+        weight: 1
+      - path: drone_2:mech_1:pPipe3
+        weight: 1
+      - path: drone_2:mech_1:pPipe3/drone_2:mech_1:transform60
+        weight: 1
+      - path: drone_2:nurbsToPoly1
+        weight: 1
+      - path: drone_2:nurbsToPoly1/drone_2:transform82
+        weight: 1
+      - path: drone_2:nurbsToSubd1
+        weight: 1
+      - path: drone_2:nurbsToSubd1/drone_2:transform23
+        weight: 1
+      - path: drone_2:nurbsToSubd2
+        weight: 1
+      - path: drone_2:nurbsToSubd2/drone_2:transform21
+        weight: 1
+      - path: drone_2:nurbsToSubd3
+        weight: 1
+      - path: drone_2:nurbsToSubd3/drone_2:transform22
+        weight: 1
+      - path: drone_2:nurbsToSubd4
+        weight: 1
+      - path: drone_2:nurbsToSubd4/drone_2:transform24
+        weight: 1
+      - path: drone_2:nurbsToSubd5
+        weight: 1
+      - path: drone_2:nurbsToSubd5/drone_2:transform80
+        weight: 1
+      - path: drone_2:nurbsToSubd6
+        weight: 1
+      - path: drone_2:nurbsToSubd6/drone_2:transform81
+        weight: 1
+      - path: drone_2:particle1
+        weight: 1
+      - path: drone_2:pCylinder1
+        weight: 1
+      - path: drone_2:pCylinder1/drone_2:transform18
+        weight: 1
+      - path: drone_2:pCylinder4
+        weight: 1
+      - path: drone_2:pCylinder4/drone_2:transform29
+        weight: 1
+      - path: drone_2:pCylinder5
+        weight: 1
+      - path: drone_2:pCylinder5/drone_2:transform28
+        weight: 1
+      - path: drone_2:pCylinder6
+        weight: 1
+      - path: drone_2:pCylinder6/drone_2:transform27
+        weight: 1
+      - path: drone_2:pCylinder7
+        weight: 1
+      - path: drone_2:pCylinder7/drone_2:transform26
+        weight: 1
+      - path: drone_2:pCylinder8
+        weight: 1
+      - path: drone_2:pCylinder8/drone_2:transform25
+        weight: 1
+      - path: drone_2:pCylinder9
+        weight: 1
+      - path: drone_2:pCylinder9/drone_2:transform20
+        weight: 1
+      - path: drone_2:pCylinder76
+        weight: 1
+      - path: drone_2:pCylinder76/drone_2:transform109
+        weight: 1
+      - path: drone_2:pCylinder77
+        weight: 1
+      - path: drone_2:pCylinder77/drone_2:transform105
+        weight: 1
+      - path: drone_2:pCylinder78
+        weight: 1
+      - path: drone_2:pCylinder78/drone_2:transform112
+        weight: 1
+      - path: drone_2:pCylinder79
+        weight: 1
+      - path: drone_2:pCylinder79/drone_2:transform108
+        weight: 1
+      - path: drone_2:pCylinder80
+        weight: 1
+      - path: drone_2:pCylinder80/drone_2:transform110
+        weight: 1
+      - path: drone_2:pCylinder81
+        weight: 1
+      - path: drone_2:pCylinder81/drone_2:transform106
+        weight: 1
+      - path: drone_2:pCylinder82
+        weight: 1
+      - path: drone_2:pCylinder82/drone_2:transform107
+        weight: 1
+      - path: drone_2:polySurface30
+        weight: 1
+      - path: drone_2:polySurface30/drone_2:polySurface32
+        weight: 1
+      - path: drone_2:polySurface30/drone_2:polySurface32/drone_2:transform79
+        weight: 1
+      - path: drone_2:polySurface30/drone_2:polySurface34
+        weight: 1
+      - path: drone_2:polySurface30/drone_2:polySurface34/drone_2:polySurface36
+        weight: 1
+      - path: drone_2:polySurface30/drone_2:polySurface34/drone_2:polySurface36/drone_2:transform78
+        weight: 1
+      - path: drone_2:polySurface30/drone_2:polySurface34/drone_2:transform77
+        weight: 1
+      - path: drone_2:polySurface30/drone_2:transform76
+        weight: 1
+      - path: drone_2:polySurface72
+        weight: 1
+      - path: drone_2:polySurface72/drone_2:transform111
+        weight: 1
+      - path: drone_2:pPipe1
+        weight: 1
+      - path: drone_2:pPipe1/drone_2:transform19
+        weight: 1
+      - path: drone_2:pPipe2
+        weight: 1
+      - path: drone_2:pPipe2/drone_2:transform3
+        weight: 1
+      - path: drone_2:pPipe3
+        weight: 1
+      - path: drone_2:pPipe3/drone_2:transform2
+        weight: 1
+      - path: drone_2:pPipe4
+        weight: 1
+      - path: drone_2:pPipe4/drone_2:transform1
+        weight: 1
+      - path: drone_2:RIGHT_JOINT
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:fin
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:fin/drone_2:transform75
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:fin1
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:fin1/drone_2:transform62
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:fins
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:fins/drone_2:transform61
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder3
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder3/drone_2:transform74
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder10
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder10/drone_2:transform73
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder11
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder11/drone_2:transform72
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder12
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder12/drone_2:transform71
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder13
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder13/drone_2:transform70
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder14
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder14/drone_2:transform69
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder15
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder15/drone_2:transform68
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder16
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder16/drone_2:transform67
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder17
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder17/drone_2:transform66
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder18
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder18/drone_2:transform65
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder19
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder19/drone_2:transform64
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder20
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:pCylinder20/drone_2:transform63
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface11
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface11/drone_2:transform60
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface12
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface12/drone_2:transform59
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface13
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface13/drone_2:transform58
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface14
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface14/drone_2:transform57
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface15
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface15/drone_2:transform56
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface16
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface16/drone_2:transform55
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface17
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface17/drone_2:transform54
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface18
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface18/drone_2:transform53
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface19
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface19/drone_2:transform52
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface20
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface20/drone_2:transform51
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface21
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface21/drone_2:transform50
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface22
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface22/drone_2:transform49
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface23
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface23/drone_2:transform48
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface24
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface24/drone_2:transform47
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface25
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface25/drone_2:transform46
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface26
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface26/drone_2:transform45
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface27
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface27/drone_2:transform44
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface28
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface28/drone_2:transform43
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface29
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:polySurface29/drone_2:transform42
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:engine_1/drone_2:transform31
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface1
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface1/drone_2:transform41
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface2
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface2/drone_2:transform40
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface3
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface3/drone_2:transform39
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface4
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface4/drone_2:transform38
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface5
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface5/drone_2:transform37
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface6
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface6/drone_2:transform36
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface7
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface7/drone_2:transform35
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface8
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface8/drone_2:transform34
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface9
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface9/drone_2:transform33
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface10
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:polySurface10/drone_2:transform32
+        weight: 1
+      - path: drone_2:RIGHT_JOINT/drone_2:transform30
+        weight: 1
+      - path: group53
+        weight: 1
+      - path: group54
+        weight: 1
+      - path: group54/curve5
+        weight: 1
+      - path: group54/curve6
+        weight: 1
+      - path: group56
+        weight: 1
+      - path: group56/group55
+        weight: 1
+      - path: group57
+        weight: 1
+      - path: group57/nurbsToSubd1
+        weight: 1
+      - path: group57/nurbsToSubd1/transform140
+        weight: 1
+      - path: group57/nurbsToSubd2
+        weight: 1
+      - path: group57/nurbsToSubd2/transform139
+        weight: 1
+      - path: gun_4:group
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pPlane1
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pPlane1/gun_4:transform5
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pPlane2
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pPlane2/gun_4:transform6
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pSphere1
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pSphere1/gun_4:polySurface1
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pSphere1/gun_4:polySurface1/gun_4:polySurface4
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pSphere1/gun_4:polySurface1/gun_4:polySurface4/gun_4:transform4
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pSphere1/gun_4:polySurface1/gun_4:transform2
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pSphere1/gun_4:polySurface2
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pSphere1/gun_4:polySurface2/gun_4:transform3
+        weight: 1
+      - path: gun_4:group/gun_4:pasted__pSphere1/gun_4:transform1
+        weight: 1
+      - path: gun_4:plasma_rifle
+        weight: 1
+      - path: gun_4:plasma_rifle/gun_4:polySurface3
+        weight: 1
+      - path: gun_4:plasma_rifle/gun_4:polySurface3/gun_4:transform8
+        weight: 1
+      - path: gun_4:plasma_rifle/gun_4:polySurface6
+        weight: 1
+      - path: gun_4:plasma_rifle/gun_4:polySurface6/gun_4:transform7
+        weight: 1
+      - path: gun_4:plasma_rifle/gun_4:transform9
+        weight: 1
+      - path: mirroredCutMesh1
+        weight: 1
+      - path: mirroredCutMesh1/transform123
+        weight: 1
+      - path: nurbsToSubd3
+        weight: 1
+      - path: nurbsToSubd3/transform141
+        weight: 1
+      - path: nurbsToSubd4
+        weight: 1
+      - path: nurbsToSubd4/transform142
+        weight: 1
+      - path: pCylinder58
+        weight: 1
+      - path: pCylinder58/transform97
+        weight: 1
+      - path: pCylinder60
+        weight: 1
+      - path: pCylinder60/transform104
+        weight: 1
+      - path: pCylinder62
+        weight: 1
+      - path: pCylinder62/transform103
+        weight: 1
+      - path: pCylinder64
+        weight: 1
+      - path: pCylinder64/transform102
+        weight: 1
+      - path: pCylinder66
+        weight: 1
+      - path: pCylinder66/transform101
+        weight: 1
+      - path: pCylinder68
+        weight: 1
+      - path: pCylinder68/transform100
+        weight: 1
+      - path: pCylinder70
+        weight: 1
+      - path: pCylinder70/transform99
+        weight: 1
+      - path: pCylinder72
+        weight: 1
+      - path: pCylinder72/transform98
+        weight: 1
+      - path: pCylinder76
+        weight: 1
+      - path: pCylinder76/transform109
+        weight: 1
+      - path: pCylinder77
+        weight: 1
+      - path: pCylinder77/transform105
+        weight: 1
+      - path: pCylinder78
+        weight: 1
+      - path: pCylinder78/transform112
+        weight: 1
+      - path: pCylinder79
+        weight: 1
+      - path: pCylinder79/transform108
+        weight: 1
+      - path: pCylinder80
+        weight: 1
+      - path: pCylinder80/transform110
+        weight: 1
+      - path: pCylinder81
+        weight: 1
+      - path: pCylinder81/transform106
+        weight: 1
+      - path: pCylinder82
+        weight: 1
+      - path: pCylinder82/transform107
+        weight: 1
+      - path: pCylinder83
+        weight: 1
+      - path: pCylinder83/polySurface73
+        weight: 1
+      - path: pCylinder83/polySurface73/polySurface76
+        weight: 1
+      - path: pCylinder83/polySurface73/polySurface76/transform119
+        weight: 1
+      - path: pCylinder83/polySurface73/transform117
+        weight: 1
+      - path: pCylinder83/polySurface74
+        weight: 1
+      - path: pCylinder83/polySurface74/transform118
+        weight: 1
+      - path: pCylinder83/transform116
+        weight: 1
+      - path: pCylinder87
+        weight: 1
+      - path: pCylinder87/transform137
+        weight: 1
+      - path: pCylinder88
+        weight: 1
+      - path: pCylinder88/transform138
+        weight: 1
+      - path: pCylinder89
+        weight: 1
+      - path: pCylinder89/transform124
+        weight: 1
+      - path: pCylinder91
+        weight: 1
+      - path: pCylinder91/transform136
+        weight: 1
+      - path: pCylinder92
+        weight: 1
+      - path: pCylinder92/transform135
+        weight: 1
+      - path: pCylinder93
+        weight: 1
+      - path: pCylinder93/transform134
+        weight: 1
+      - path: pCylinder94
+        weight: 1
+      - path: pCylinder94/transform133
+        weight: 1
+      - path: pCylinder95
+        weight: 1
+      - path: pCylinder95/transform132
+        weight: 1
+      - path: pCylinder96
+        weight: 1
+      - path: pCylinder96/transform131
+        weight: 1
+      - path: pCylinder97
+        weight: 1
+      - path: pCylinder97/transform130
+        weight: 1
+      - path: pCylinder98
+        weight: 1
+      - path: pCylinder98/transform129
+        weight: 1
+      - path: pCylinder99
+        weight: 1
+      - path: pCylinder99/transform128
+        weight: 1
+      - path: pCylinder100
+        weight: 1
+      - path: pCylinder100/transform127
+        weight: 1
+      - path: pCylinder101
+        weight: 1
+      - path: pCylinder101/transform126
+        weight: 1
+      - path: pCylinder102
+        weight: 1
+      - path: pCylinder102/transform125
+        weight: 1
+      - path: polySurface72
+        weight: 1
+      - path: polySurface72/transform111
+        weight: 1
+      - path: polySurface77
+        weight: 1
+      - path: polySurface77/transform120
+        weight: 1
+      - path: transform113
+        weight: 1
+      - path: transform114
+        weight: 1
+      - path: transform121
+        weight: 1
+      - path: transform122
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
