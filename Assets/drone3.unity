@@ -1283,8 +1283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a4cdb283c423e42b507fd764f6841e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivtiy: 100
-  loudness: 0
 --- !u!102 &2020447647
 TextMesh:
   serializedVersion: 3
@@ -1356,7 +1354,8 @@ AudioSource:
   m_GameObject: {fileID: 2020447645}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300001, guid: 6ea774f72f2306f4aa0ded557cace6c7,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1

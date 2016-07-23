@@ -1,0 +1,40 @@
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp.dll
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp.pdb
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp.pri
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp-firstpass.dll
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\Assembly-CSharp.dll
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\Assembly-CSharp.pdb
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\priconfig.xml
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\priconfig.xml.intermediate
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\layout.resfiles
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\layout.resfiles.intermediate
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\resources.resfiles
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\resources.resfiles.intermediate
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\pri.resfiles
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\pri.resfiles.intermediate
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\qualifiers.txt
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
+C:\Users\Sam Winkelstein\Documents\Holodrone\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp.dll
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp.pdb
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp.pri
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp-firstpass.dll
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\Assembly-CSharp.dll
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\Assembly-CSharp.pdb
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\priconfig.xml
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\priconfig.xml.intermediate
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\layout.resfiles
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\layout.resfiles.intermediate
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\resources.resfiles
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\resources.resfiles.intermediate
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\pri.resfiles
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\pri.resfiles.intermediate
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\qualifiers.txt
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
+C:\Users\barbi\Desktop\TOMDC\repos\tomdc_sound_location\UWP\Assembly-CSharp\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt
