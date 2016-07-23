@@ -9,7 +9,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: TOM:DC
+  companyName: DefaultCompany
   productName: Holodrone
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -101,7 +101,7 @@ PlayerSettings:
   xboxOneDisableKinectGpuReservation: 0
   singlePassStereoRendering: 0
   protectGraphicsMemory: 0
-  productGUID: 0814cfcb2d1c61a4bb6b60c75153eed0
+  productGUID: 887fb1a4e60bff743a52316a2a7785a3
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
@@ -344,22 +344,18 @@ PlayerSettings:
   spritePackerPolicy: 
   scriptingDefineSymbols: {}
   metroPackageName: Holodrone
-  metroPackageVersion: 1.0.0.0
-<<<<<<< HEAD
+  metroPackageVersion: 
   metroCertificatePath: Assets\WSATestCertificate.pfx
-=======
-  metroCertificatePath: Assets/WSATestCertificate.pfx
->>>>>>> 7656c929dc214a847fccf694bf74bfd86503dc77
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
   metroCertificateNotAfter: 80bd97072303d301
   metroApplicationDescription: Holodrone
   wsaImages: {}
-  metroTileShortName: Holodrone
+  metroTileShortName: 
   metroCommandLineArgsFile: 
   metroTileShowName: 0
-  metroMediumTileShowName: 1
+  metroMediumTileShowName: 0
   metroLargeTileShowName: 0
   metroWideTileShowName: 0
   metroDefaultTileSize: 1
@@ -368,57 +364,7 @@ PlayerSettings:
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
     a: 1}
   metroSplashScreenUseBackgroundColor: 0
-  platformCapabilities:
-    WindowsStoreApps:
-<<<<<<< HEAD
-      AllJoyn: False
-      BlockedChatMessages: False
-      Bluetooth: False
-      Chat: False
-      CodeGeneration: False
-=======
-      AllJoyn: True
-      BlockedChatMessages: False
-      Bluetooth: True
-      Chat: True
-      CodeGeneration: True
->>>>>>> 7656c929dc214a847fccf694bf74bfd86503dc77
-      EnterpriseAuthentication: False
-      HumanInterfaceDevice: False
-      InternetClient: False
-      InternetClientServer: False
-<<<<<<< HEAD
-      Location: False
-      Microphone: False
-      MusicLibrary: False
-      Objects3D: False
-      PhoneCall: False
-      PicturesLibrary: False
-      PrivateNetworkClientServer: False
-      Proximity: False
-      RemovableStorage: False
-      SharedUserCertificates: False
-=======
-      Location: True
-      Microphone: True
-      MusicLibrary: False
-      Objects3D: True
-      PhoneCall: True
-      PicturesLibrary: False
-      PrivateNetworkClientServer: False
-      Proximity: True
-      RemovableStorage: False
-      SharedUserCertificates: True
->>>>>>> 7656c929dc214a847fccf694bf74bfd86503dc77
-      SpatialPerception: False
-      UserAccountInformation: False
-      VideosLibrary: False
-      VoipCall: False
-<<<<<<< HEAD
-      WebCam: False
-=======
-      WebCam: True
->>>>>>> 7656c929dc214a847fccf694bf74bfd86503dc77
+  platformCapabilities: {}
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
@@ -466,17 +412,9 @@ PlayerSettings:
   intPropertyNames:
   - Metro::ScriptingBackend
   - Standalone::ScriptingBackend
-  - WebGL::ScriptingBackend
-  - WebGL::audioCompressionFormat
-  - WebGL::exceptionSupport
-  - WebGL::memorySize
   - WebPlayer::ScriptingBackend
   Metro::ScriptingBackend: 2
   Standalone::ScriptingBackend: 0
-  WebGL::ScriptingBackend: 1
-  WebGL::audioCompressionFormat: 4
-  WebGL::exceptionSupport: 1
-  WebGL::memorySize: 256
   WebPlayer::ScriptingBackend: 0
   boolPropertyNames:
   - Android::VR::enable
@@ -490,9 +428,6 @@ PlayerSettings:
   - Standalone::VR::enable
   - Tizen::VR::enable
   - WebGL::VR::enable
-  - WebGL::analyzeBuildSize
-  - WebGL::dataCaching
-  - WebGL::useEmbeddedResources
   - WebPlayer::VR::enable
   - WiiU::VR::enable
   - Xbox360::VR::enable
@@ -511,9 +446,6 @@ PlayerSettings:
   Standalone::VR::enable: 0
   Tizen::VR::enable: 0
   WebGL::VR::enable: 0
-  WebGL::analyzeBuildSize: 0
-  WebGL::dataCaching: 0
-  WebGL::useEmbeddedResources: 0
   WebPlayer::VR::enable: 0
   WiiU::VR::enable: 0
   Xbox360::VR::enable: 0
@@ -531,9 +463,6 @@ PlayerSettings:
   - Purchasing_ServiceEnabled::Purchasing_ServiceEnabled
   - UNet_ServiceEnabled::UNet_ServiceEnabled
   - Unity_Ads_ServiceEnabled::Unity_Ads_ServiceEnabled
-  - WebGL::emscriptenArgs
-  - WebGL::template
-  - additionalIl2CppArgs::additionalIl2CppArgs
   Analytics_ServiceEnabled::Analytics_ServiceEnabled: False
   Build_ServiceEnabled::Build_ServiceEnabled: False
   Collab_ServiceEnabled::Collab_ServiceEnabled: False
@@ -543,9 +472,6 @@ PlayerSettings:
   Purchasing_ServiceEnabled::Purchasing_ServiceEnabled: False
   UNet_ServiceEnabled::UNet_ServiceEnabled: False
   Unity_Ads_ServiceEnabled::Unity_Ads_ServiceEnabled: False
-  WebGL::emscriptenArgs: 
-  WebGL::template: APPLICATION:Default
-  additionalIl2CppArgs::additionalIl2CppArgs: 
   vectorPropertyNames:
   - Android::VR::enabledDevices
   - Metro::VR::enabledDevices
@@ -585,7 +511,7 @@ PlayerSettings:
   XboxOne::VR::enabledDevices: []
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
-  cloudProjectId: b75a1949-7d50-4444-bce9-6bac5c4e93e7
-  projectName: Holodrone
-  organizationId: sjw623
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
