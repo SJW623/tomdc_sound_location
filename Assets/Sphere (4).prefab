@@ -23,6 +23,7 @@ GameObject:
   - 135: {fileID: 135000010287978946}
   - 23: {fileID: 23000011077647718}
   - 114: {fileID: 114000014056654186}
+  - 143: {fileID: 143000014173511772}
   m_Layer: 0
   m_Name: Sphere (4)
   m_TagString: Untagged
@@ -38,7 +39,7 @@ Transform:
   m_GameObject: {fileID: 1000010451962204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.74, y: 0.41635334, z: 5.05087}
-  m_LocalScale: {x: 0.9215877, y: 0.18564276, z: 0.921588}
+  m_LocalScale: {x: 0.2, y: 0.05, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -91,6 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
+  charc: {fileID: 143000014173511772}
 --- !u!135 &135000010287978946
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -102,4 +104,21 @@ SphereCollider:
   m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!143 &143000014173511772
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010451962204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 0.5
+  m_Radius: 1
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}

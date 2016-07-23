@@ -15,10 +15,9 @@ public class InstanceTest : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         gameObject.transform.LookAt(cam);
-        if (timer >= 100)
+        if (timer >= 50)
         {
-            Instantiate(projectile, gameObject.transform.position, gameObject.transform.rotation);
-
+            Instantiate(projectile, transform.position, transform.rotation);
             
 
             timer = 0;

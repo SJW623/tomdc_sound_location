@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\InstanceTest.cs" />
+    <Compile Include="Assets\Sound1.cs" />
     <Compile Include="Assets\instance test.cs" />
     <Compile Include="Assets\move.cs" />
   </ItemGroup>
