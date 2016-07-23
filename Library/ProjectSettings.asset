@@ -9,7 +9,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: TOM:DC
   productName: Holodrone
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -344,18 +344,18 @@ PlayerSettings:
   spritePackerPolicy: 
   scriptingDefineSymbols: {}
   metroPackageName: Holodrone
-  metroPackageVersion: 
-  metroCertificatePath: Assets\WSATestCertificate.pfx
+  metroPackageVersion: 1.0.0.0
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
   metroCertificateNotAfter: 80bd97072303d301
   metroApplicationDescription: Holodrone
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Holodrone
   metroCommandLineArgsFile: 
   metroTileShowName: 0
-  metroMediumTileShowName: 0
+  metroMediumTileShowName: 1
   metroLargeTileShowName: 0
   metroWideTileShowName: 0
   metroDefaultTileSize: 1
@@ -364,7 +364,32 @@ PlayerSettings:
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
     a: 1}
   metroSplashScreenUseBackgroundColor: 0
-  platformCapabilities: {}
+  platformCapabilities:
+    WindowsStoreApps:
+      AllJoyn: True
+      BlockedChatMessages: False
+      Bluetooth: True
+      Chat: True
+      CodeGeneration: True
+      EnterpriseAuthentication: False
+      HumanInterfaceDevice: False
+      InternetClient: False
+      InternetClientServer: False
+      Location: True
+      Microphone: True
+      MusicLibrary: False
+      Objects3D: True
+      PhoneCall: True
+      PicturesLibrary: False
+      PrivateNetworkClientServer: False
+      Proximity: True
+      RemovableStorage: False
+      SharedUserCertificates: True
+      SpatialPerception: False
+      UserAccountInformation: False
+      VideosLibrary: False
+      VoipCall: False
+      WebCam: True
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
