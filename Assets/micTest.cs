@@ -1,5 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
+using Windows.ApplicationModel;
+using Windows.ApplicationModel.Activation;
+using Windows.ApplicationModel.Core;
+using Windows.UI.Core;
+using Windows.UI.ViewManagement;
+using UnityPlayer;
 
 public class micTest : MonoBehaviour {
 
